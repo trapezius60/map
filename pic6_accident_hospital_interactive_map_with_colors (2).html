@@ -1,0 +1,4036 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e04feb28f6b7ca0e9cb01b4268b14b57 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e04feb28f6b7ca0e9cb01b4268b14b57" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e04feb28f6b7ca0e9cb01b4268b14b57 = L.map(
+                "map_e04feb28f6b7ca0e9cb01b4268b14b57",
+                {
+                    center: [14.965116364640885, 102.09356272928176],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c13e4d0fc98f64a354446db2f89f02bc = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e04feb28f6b7ca0e9cb01b4268b14b57);
+        
+    
+            var marker_cluster_eb3f39b04826c682c17e341b822c6eaa = L.markerClusterGroup(
+                {}
+            );
+            map_e04feb28f6b7ca0e9cb01b4268b14b57.addLayer(marker_cluster_eb3f39b04826c682c17e341b822c6eaa);
+        
+    
+            var marker_16240e296036209d057f65a8dfa40be3 = L.marker(
+                [14.983043, 102.103548],
+                {}
+            ).addTo(marker_cluster_eb3f39b04826c682c17e341b822c6eaa);
+        
+    
+            var icon_24daeb21bb73e5bafda9c41330242cbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_16240e296036209d057f65a8dfa40be3.setIcon(icon_24daeb21bb73e5bafda9c41330242cbf);
+        
+    
+        var popup_d03c42139a3fc1c45cbc9ec6c38e32dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8c9e48279738fb182aea31ebd38840e = $(`<div id="html_d8c9e48279738fb182aea31ebd38840e" style="width: 100.0%; height: 100.0%;">Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_d03c42139a3fc1c45cbc9ec6c38e32dd.setContent(html_d8c9e48279738fb182aea31ebd38840e);
+            
+        
+
+        marker_16240e296036209d057f65a8dfa40be3.bindPopup(popup_d03c42139a3fc1c45cbc9ec6c38e32dd)
+        ;
+
+        
+    
+    
+            var marker_211f56e217dbfb33cc325ab573359432 = L.marker(
+                [14.982048, 102.07264],
+                {}
+            ).addTo(marker_cluster_eb3f39b04826c682c17e341b822c6eaa);
+        
+    
+            var icon_1b63fa08c8a6a8b14c36469065624f32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_211f56e217dbfb33cc325ab573359432.setIcon(icon_1b63fa08c8a6a8b14c36469065624f32);
+        
+    
+        var popup_9f14429406d5e954ce962d15efe6eca5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd3077d0a119a811c3f8c52f03f3e61c = $(`<div id="html_dd3077d0a119a811c3f8c52f03f3e61c" style="width: 100.0%; height: 100.0%;">Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_9f14429406d5e954ce962d15efe6eca5.setContent(html_dd3077d0a119a811c3f8c52f03f3e61c);
+            
+        
+
+        marker_211f56e217dbfb33cc325ab573359432.bindPopup(popup_9f14429406d5e954ce962d15efe6eca5)
+        ;
+
+        
+    
+    
+            var marker_8b0b6a99bf4e91cb3f748243b2dbd162 = L.marker(
+                [14.92502, 101.965282],
+                {}
+            ).addTo(marker_cluster_eb3f39b04826c682c17e341b822c6eaa);
+        
+    
+            var icon_59b95da0797a47f1da0859f9b69a9d6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8b0b6a99bf4e91cb3f748243b2dbd162.setIcon(icon_59b95da0797a47f1da0859f9b69a9d6b);
+        
+    
+        var popup_f8cddea3bbc06324bbb4296b9a8e4481 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad31fb80d78bcf4a0cc9702b8b102294 = $(`<div id="html_ad31fb80d78bcf4a0cc9702b8b102294" style="width: 100.0%; height: 100.0%;">Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_f8cddea3bbc06324bbb4296b9a8e4481.setContent(html_ad31fb80d78bcf4a0cc9702b8b102294);
+            
+        
+
+        marker_8b0b6a99bf4e91cb3f748243b2dbd162.bindPopup(popup_f8cddea3bbc06324bbb4296b9a8e4481)
+        ;
+
+        
+    
+    
+            var marker_8384cb01bc78fa052024c82939b06f1f = L.marker(
+                [14.864476, 102.03562],
+                {}
+            ).addTo(marker_cluster_eb3f39b04826c682c17e341b822c6eaa);
+        
+    
+            var icon_381208edc790a7c85e12ec96879766bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_8384cb01bc78fa052024c82939b06f1f.setIcon(icon_381208edc790a7c85e12ec96879766bf);
+        
+    
+        var popup_a62197798b79c987f5b1132205e28061 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95aa0c04b3fbf6ca30f8828a80451365 = $(`<div id="html_95aa0c04b3fbf6ca30f8828a80451365" style="width: 100.0%; height: 100.0%;">Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_a62197798b79c987f5b1132205e28061.setContent(html_95aa0c04b3fbf6ca30f8828a80451365);
+            
+        
+
+        marker_8384cb01bc78fa052024c82939b06f1f.bindPopup(popup_a62197798b79c987f5b1132205e28061)
+        ;
+
+        
+    
+    
+            var marker_e9c9b670a2378dd2893bc147d73bbd96 = L.marker(
+                [14.966538, 102.086731],
+                {}
+            ).addTo(marker_cluster_eb3f39b04826c682c17e341b822c6eaa);
+        
+    
+            var icon_581cc912b842defb67eb6aee6ad771b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e9c9b670a2378dd2893bc147d73bbd96.setIcon(icon_581cc912b842defb67eb6aee6ad771b7);
+        
+    
+        var popup_a6f193b29c022c063814d5f32ced10b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d4712ea815bc9831cc0ef10e48d1ed3 = $(`<div id="html_6d4712ea815bc9831cc0ef10e48d1ed3" style="width: 100.0%; height: 100.0%;">Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_a6f193b29c022c063814d5f32ced10b6.setContent(html_6d4712ea815bc9831cc0ef10e48d1ed3);
+            
+        
+
+        marker_e9c9b670a2378dd2893bc147d73bbd96.bindPopup(popup_a6f193b29c022c063814d5f32ced10b6)
+        ;
+
+        
+    
+    
+            var marker_cluster_dff7563226b1abd2091a1bab80190fbd = L.markerClusterGroup(
+                {}
+            );
+            map_e04feb28f6b7ca0e9cb01b4268b14b57.addLayer(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+            var marker_83375dcf6c23da7b2e0e426fb4d800b2 = L.marker(
+                [14.9773, 102.21177],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_f047eb5d8a23a267708f40d8032851b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0196a9b3b4fa32f3750b3d13c9b0d337 = $(`<div id="html_0196a9b3b4fa32f3750b3d13c9b0d337" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_f047eb5d8a23a267708f40d8032851b0.setContent(html_0196a9b3b4fa32f3750b3d13c9b0d337);
+            
+        
+
+        marker_83375dcf6c23da7b2e0e426fb4d800b2.bindPopup(popup_f047eb5d8a23a267708f40d8032851b0)
+        ;
+
+        
+    
+    
+            var marker_5d600d2e2c62982f007a6f0981ce0950 = L.marker(
+                [14.91137, 102.19177],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_b24557abda9fe704dcce6623a7524f97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9075bfc65db346f944794a0a57b66802 = $(`<div id="html_9075bfc65db346f944794a0a57b66802" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_b24557abda9fe704dcce6623a7524f97.setContent(html_9075bfc65db346f944794a0a57b66802);
+            
+        
+
+        marker_5d600d2e2c62982f007a6f0981ce0950.bindPopup(popup_b24557abda9fe704dcce6623a7524f97)
+        ;
+
+        
+    
+    
+            var marker_82b57fabfaddb382350b8a8fe3493265 = L.marker(
+                [14.96111, 102.13214],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_b17aa56c3f9aa82c30b127aebeda8c3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70332be6132c1efc3023800c578b6058 = $(`<div id="html_70332be6132c1efc3023800c578b6058" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_b17aa56c3f9aa82c30b127aebeda8c3b.setContent(html_70332be6132c1efc3023800c578b6058);
+            
+        
+
+        marker_82b57fabfaddb382350b8a8fe3493265.bindPopup(popup_b17aa56c3f9aa82c30b127aebeda8c3b)
+        ;
+
+        
+    
+    
+            var marker_aa2fd788a5983330d17678006bc1f805 = L.marker(
+                [14.98441, 102.17219],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_d6029190014da949367a0e5e67744b2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff285cab2b7d515074ad9b2eceec20bf = $(`<div id="html_ff285cab2b7d515074ad9b2eceec20bf" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_d6029190014da949367a0e5e67744b2c.setContent(html_ff285cab2b7d515074ad9b2eceec20bf);
+            
+        
+
+        marker_aa2fd788a5983330d17678006bc1f805.bindPopup(popup_d6029190014da949367a0e5e67744b2c)
+        ;
+
+        
+    
+    
+            var marker_8373f44f5e1b0114615655e2d8dba124 = L.marker(
+                [14.96947, 102.09303],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_482f13b2640b61770743f697e689b70b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5facecf1dd18406f31a44bcea6935f78 = $(`<div id="html_5facecf1dd18406f31a44bcea6935f78" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_482f13b2640b61770743f697e689b70b.setContent(html_5facecf1dd18406f31a44bcea6935f78);
+            
+        
+
+        marker_8373f44f5e1b0114615655e2d8dba124.bindPopup(popup_482f13b2640b61770743f697e689b70b)
+        ;
+
+        
+    
+    
+            var marker_fcf8eb182d95374800e547be987f3d18 = L.marker(
+                [14.96833, 102.11427],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_e26b29c54f1158a77c66ff243665dd81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b545890483b6cac0305335712083a070 = $(`<div id="html_b545890483b6cac0305335712083a070" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_e26b29c54f1158a77c66ff243665dd81.setContent(html_b545890483b6cac0305335712083a070);
+            
+        
+
+        marker_fcf8eb182d95374800e547be987f3d18.bindPopup(popup_e26b29c54f1158a77c66ff243665dd81)
+        ;
+
+        
+    
+    
+            var marker_ab6396e375fb67ff55f4789ba57e0a59 = L.marker(
+                [14.947852, 102.155993],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_764c0e1de28c452d9a508578d595bf9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60df52b763fdf97b213ba55d78d7a1e4 = $(`<div id="html_60df52b763fdf97b213ba55d78d7a1e4" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_764c0e1de28c452d9a508578d595bf9b.setContent(html_60df52b763fdf97b213ba55d78d7a1e4);
+            
+        
+
+        marker_ab6396e375fb67ff55f4789ba57e0a59.bindPopup(popup_764c0e1de28c452d9a508578d595bf9b)
+        ;
+
+        
+    
+    
+            var marker_c36ee305408826b2d9e88bbd510576b8 = L.marker(
+                [14.93331, 102.13633],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_1db75ff3148a052f2254d83eaac11f8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69573fe0196c80f12f09ae99def74ed5 = $(`<div id="html_69573fe0196c80f12f09ae99def74ed5" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_1db75ff3148a052f2254d83eaac11f8b.setContent(html_69573fe0196c80f12f09ae99def74ed5);
+            
+        
+
+        marker_c36ee305408826b2d9e88bbd510576b8.bindPopup(popup_1db75ff3148a052f2254d83eaac11f8b)
+        ;
+
+        
+    
+    
+            var marker_6fee55d21286c13b2648e5ffa83763dd = L.marker(
+                [14.97527, 102.11402],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_5407c356d2fa8c3ab1f643d67f1d553f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cbd9ae8ef0ef808c9fc6e0b183b5768 = $(`<div id="html_4cbd9ae8ef0ef808c9fc6e0b183b5768" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_5407c356d2fa8c3ab1f643d67f1d553f.setContent(html_4cbd9ae8ef0ef808c9fc6e0b183b5768);
+            
+        
+
+        marker_6fee55d21286c13b2648e5ffa83763dd.bindPopup(popup_5407c356d2fa8c3ab1f643d67f1d553f)
+        ;
+
+        
+    
+    
+            var marker_5d9fb676280d9ddc9455b0155940a21f = L.marker(
+                [14.9855, 102.18096],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_154eb7edf8c436f8fe7ec1aa58121821 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a0c7a53863fbd433ce45bccfd5cf4b4 = $(`<div id="html_9a0c7a53863fbd433ce45bccfd5cf4b4" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_154eb7edf8c436f8fe7ec1aa58121821.setContent(html_9a0c7a53863fbd433ce45bccfd5cf4b4);
+            
+        
+
+        marker_5d9fb676280d9ddc9455b0155940a21f.bindPopup(popup_154eb7edf8c436f8fe7ec1aa58121821)
+        ;
+
+        
+    
+    
+            var marker_f5d7409f1dd5a0e4dc179c60d165adea = L.marker(
+                [14.93132, 102.10402],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_84c2ea49f63129039636f617730fae28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4391b8484d80669c998f455ee44afa72 = $(`<div id="html_4391b8484d80669c998f455ee44afa72" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_84c2ea49f63129039636f617730fae28.setContent(html_4391b8484d80669c998f455ee44afa72);
+            
+        
+
+        marker_f5d7409f1dd5a0e4dc179c60d165adea.bindPopup(popup_84c2ea49f63129039636f617730fae28)
+        ;
+
+        
+    
+    
+            var marker_7fcf8248e681df7c972176e88141608f = L.marker(
+                [14.89121, 102.16095],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_ea398449beb35b01b262583695f9ba4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c31325d43156a5cb3a09ef974f3657a6 = $(`<div id="html_c31325d43156a5cb3a09ef974f3657a6" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_ea398449beb35b01b262583695f9ba4b.setContent(html_c31325d43156a5cb3a09ef974f3657a6);
+            
+        
+
+        marker_7fcf8248e681df7c972176e88141608f.bindPopup(popup_ea398449beb35b01b262583695f9ba4b)
+        ;
+
+        
+    
+    
+            var marker_4d8bc317aaf0e82efbd71cdb9d177745 = L.marker(
+                [14.920181, 102.163443],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_662c68fda262cfe4d8201ba814a60e60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b79b32ed6b45753bebe5f36da36058e9 = $(`<div id="html_b79b32ed6b45753bebe5f36da36058e9" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_662c68fda262cfe4d8201ba814a60e60.setContent(html_b79b32ed6b45753bebe5f36da36058e9);
+            
+        
+
+        marker_4d8bc317aaf0e82efbd71cdb9d177745.bindPopup(popup_662c68fda262cfe4d8201ba814a60e60)
+        ;
+
+        
+    
+    
+            var marker_7b2262009bf39d7df783ca3e305208a1 = L.marker(
+                [14.91052, 102.1913],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_74bf81719d7f63fce57a798715af8b5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11ef8f90bbb24b2deef19daa98cb4f23 = $(`<div id="html_11ef8f90bbb24b2deef19daa98cb4f23" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_74bf81719d7f63fce57a798715af8b5a.setContent(html_11ef8f90bbb24b2deef19daa98cb4f23);
+            
+        
+
+        marker_7b2262009bf39d7df783ca3e305208a1.bindPopup(popup_74bf81719d7f63fce57a798715af8b5a)
+        ;
+
+        
+    
+    
+            var marker_59bceba9a7fc3ffffde2e6156b974976 = L.marker(
+                [14.949288, 102.154341],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_7a24456e926a5b5942194de8fb883379 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6800365dace55fbea2c25bdb21bfce2 = $(`<div id="html_d6800365dace55fbea2c25bdb21bfce2" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_7a24456e926a5b5942194de8fb883379.setContent(html_d6800365dace55fbea2c25bdb21bfce2);
+            
+        
+
+        marker_59bceba9a7fc3ffffde2e6156b974976.bindPopup(popup_7a24456e926a5b5942194de8fb883379)
+        ;
+
+        
+    
+    
+            var marker_a836ea12a6dee61e96fd3239d9d9eb24 = L.marker(
+                [14.945204, 102.13661],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_771736599843433f701e293e95852bc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aef1c323f52f87850448a102bb5d07ab = $(`<div id="html_aef1c323f52f87850448a102bb5d07ab" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_771736599843433f701e293e95852bc7.setContent(html_aef1c323f52f87850448a102bb5d07ab);
+            
+        
+
+        marker_a836ea12a6dee61e96fd3239d9d9eb24.bindPopup(popup_771736599843433f701e293e95852bc7)
+        ;
+
+        
+    
+    
+            var marker_1641c394e23511fc2233153fff5a5f0c = L.marker(
+                [14.98757, 102.19076],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_e02dc22306179cde6cc2d95e62df1ae3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55561aa8a71685a31ad77dc92fc2b4db = $(`<div id="html_55561aa8a71685a31ad77dc92fc2b4db" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_e02dc22306179cde6cc2d95e62df1ae3.setContent(html_55561aa8a71685a31ad77dc92fc2b4db);
+            
+        
+
+        marker_1641c394e23511fc2233153fff5a5f0c.bindPopup(popup_e02dc22306179cde6cc2d95e62df1ae3)
+        ;
+
+        
+    
+    
+            var marker_e7fe52509e13497ab7988719ff0b36fd = L.marker(
+                [14.98661, 102.18807],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_6c0e25223bba14c1406cb3963fea2e4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e71944ac47e11a4a618c744217847ebc = $(`<div id="html_e71944ac47e11a4a618c744217847ebc" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_6c0e25223bba14c1406cb3963fea2e4e.setContent(html_e71944ac47e11a4a618c744217847ebc);
+            
+        
+
+        marker_e7fe52509e13497ab7988719ff0b36fd.bindPopup(popup_6c0e25223bba14c1406cb3963fea2e4e)
+        ;
+
+        
+    
+    
+            var marker_cd9cb17a684842df32bf93cdec75efa8 = L.marker(
+                [14.96706, 102.13931],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_ee4be348047a56fa9d5e27bcc85e5625 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d65f911c3f27d1a5ee1e8f848404133 = $(`<div id="html_8d65f911c3f27d1a5ee1e8f848404133" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_ee4be348047a56fa9d5e27bcc85e5625.setContent(html_8d65f911c3f27d1a5ee1e8f848404133);
+            
+        
+
+        marker_cd9cb17a684842df32bf93cdec75efa8.bindPopup(popup_ee4be348047a56fa9d5e27bcc85e5625)
+        ;
+
+        
+    
+    
+            var marker_9254b52b513d0154f6cf4681a851c808 = L.marker(
+                [14.90705, 102.1548],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_699088ac7f5c6f3ea0f781bc2fbaa2ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb2d6dd956b51e8cf054e45e7e0983ba = $(`<div id="html_cb2d6dd956b51e8cf054e45e7e0983ba" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_699088ac7f5c6f3ea0f781bc2fbaa2ca.setContent(html_cb2d6dd956b51e8cf054e45e7e0983ba);
+            
+        
+
+        marker_9254b52b513d0154f6cf4681a851c808.bindPopup(popup_699088ac7f5c6f3ea0f781bc2fbaa2ca)
+        ;
+
+        
+    
+    
+            var marker_e1daa286f19cfda2fed053b09f3c0e73 = L.marker(
+                [14.934064, 102.135138],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_29fa2049a3ff2ffb9601f5c1bb6acaa5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d887b62d7815e9c3ecde858336ada0d1 = $(`<div id="html_d887b62d7815e9c3ecde858336ada0d1" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_29fa2049a3ff2ffb9601f5c1bb6acaa5.setContent(html_d887b62d7815e9c3ecde858336ada0d1);
+            
+        
+
+        marker_e1daa286f19cfda2fed053b09f3c0e73.bindPopup(popup_29fa2049a3ff2ffb9601f5c1bb6acaa5)
+        ;
+
+        
+    
+    
+            var marker_276218d32f372172dc37a2606be9a110 = L.marker(
+                [14.98576, 102.18229],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_5749abb326b79bab32fec949c5061e03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0eefda4e638d489b20880296e35f7bd5 = $(`<div id="html_0eefda4e638d489b20880296e35f7bd5" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_5749abb326b79bab32fec949c5061e03.setContent(html_0eefda4e638d489b20880296e35f7bd5);
+            
+        
+
+        marker_276218d32f372172dc37a2606be9a110.bindPopup(popup_5749abb326b79bab32fec949c5061e03)
+        ;
+
+        
+    
+    
+            var marker_e01dae58add852d315b6c92812790cab = L.marker(
+                [14.89594, 102.16166],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_22ad20d83a2b0f8cb69b0e12a391424a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e37dfdcfb91a0bc3d2e347ca0cd5f16 = $(`<div id="html_9e37dfdcfb91a0bc3d2e347ca0cd5f16" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_22ad20d83a2b0f8cb69b0e12a391424a.setContent(html_9e37dfdcfb91a0bc3d2e347ca0cd5f16);
+            
+        
+
+        marker_e01dae58add852d315b6c92812790cab.bindPopup(popup_22ad20d83a2b0f8cb69b0e12a391424a)
+        ;
+
+        
+    
+    
+            var marker_c476c0752914ba8a8c60b26aabf4800b = L.marker(
+                [14.968368, 102.141744],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_4acf19f9ad127b94df59671c2c19659b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_810624530c355808a88f7084a8fff12b = $(`<div id="html_810624530c355808a88f7084a8fff12b" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_4acf19f9ad127b94df59671c2c19659b.setContent(html_810624530c355808a88f7084a8fff12b);
+            
+        
+
+        marker_c476c0752914ba8a8c60b26aabf4800b.bindPopup(popup_4acf19f9ad127b94df59671c2c19659b)
+        ;
+
+        
+    
+    
+            var marker_cc613c1cae4cedf7b60b737e0a2bfb35 = L.marker(
+                [14.905622, 102.155885],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_8bc468018a3ffcf9ae4731c15202f5f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fd4eb7cd47d971762f66f77999f0dc4 = $(`<div id="html_7fd4eb7cd47d971762f66f77999f0dc4" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_8bc468018a3ffcf9ae4731c15202f5f7.setContent(html_7fd4eb7cd47d971762f66f77999f0dc4);
+            
+        
+
+        marker_cc613c1cae4cedf7b60b737e0a2bfb35.bindPopup(popup_8bc468018a3ffcf9ae4731c15202f5f7)
+        ;
+
+        
+    
+    
+            var marker_4ac6e0b4882cef7382c3d2a37b48d4d7 = L.marker(
+                [14.92419, 102.17674],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_2ce6ff499889e7b0af59858607a4223d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13db44cb2fc18800de53fd99c4f594a2 = $(`<div id="html_13db44cb2fc18800de53fd99c4f594a2" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_2ce6ff499889e7b0af59858607a4223d.setContent(html_13db44cb2fc18800de53fd99c4f594a2);
+            
+        
+
+        marker_4ac6e0b4882cef7382c3d2a37b48d4d7.bindPopup(popup_2ce6ff499889e7b0af59858607a4223d)
+        ;
+
+        
+    
+    
+            var marker_0626b044422268d9c3affab8a75c9250 = L.marker(
+                [14.91598, 102.19168],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_c0a30fd92c27de0c1d6847fe576be80a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a23d89e99ff3b10b0867d974cf6d5d11 = $(`<div id="html_a23d89e99ff3b10b0867d974cf6d5d11" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_c0a30fd92c27de0c1d6847fe576be80a.setContent(html_a23d89e99ff3b10b0867d974cf6d5d11);
+            
+        
+
+        marker_0626b044422268d9c3affab8a75c9250.bindPopup(popup_c0a30fd92c27de0c1d6847fe576be80a)
+        ;
+
+        
+    
+    
+            var marker_f76a6d37014f56511bc33b6e3636ed76 = L.marker(
+                [14.92553, 102.16132],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_1ab03e21dcf7a49c74890dedd09461e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef853d33706e11654d88a2d7a6c1be8c = $(`<div id="html_ef853d33706e11654d88a2d7a6c1be8c" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_1ab03e21dcf7a49c74890dedd09461e8.setContent(html_ef853d33706e11654d88a2d7a6c1be8c);
+            
+        
+
+        marker_f76a6d37014f56511bc33b6e3636ed76.bindPopup(popup_1ab03e21dcf7a49c74890dedd09461e8)
+        ;
+
+        
+    
+    
+            var marker_d295fb7eb00d290d0832d599e0094aaf = L.marker(
+                [14.99525, 102.16474],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_4b6a5f3dd5b23ef43e082184afa6ca88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c7bf06ef13ec0688dadca47af686ec4 = $(`<div id="html_3c7bf06ef13ec0688dadca47af686ec4" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_4b6a5f3dd5b23ef43e082184afa6ca88.setContent(html_3c7bf06ef13ec0688dadca47af686ec4);
+            
+        
+
+        marker_d295fb7eb00d290d0832d599e0094aaf.bindPopup(popup_4b6a5f3dd5b23ef43e082184afa6ca88)
+        ;
+
+        
+    
+    
+            var marker_4353b1139e730b8797ea83fb6c6c9e57 = L.marker(
+                [14.97018, 102.11394],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_39548b8ab8c7c6f93ff557cb7eada775 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8807da63189b86d2d7496c51840cf60 = $(`<div id="html_c8807da63189b86d2d7496c51840cf60" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_39548b8ab8c7c6f93ff557cb7eada775.setContent(html_c8807da63189b86d2d7496c51840cf60);
+            
+        
+
+        marker_4353b1139e730b8797ea83fb6c6c9e57.bindPopup(popup_39548b8ab8c7c6f93ff557cb7eada775)
+        ;
+
+        
+    
+    
+            var marker_a8a100c40d6bbe08c0312f2a3a6c689d = L.marker(
+                [14.92317, 102.19923],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_631f34bf8bdecd78f68ae5d0d32f72b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acdd341592a6088c42dad45ccd264835 = $(`<div id="html_acdd341592a6088c42dad45ccd264835" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_631f34bf8bdecd78f68ae5d0d32f72b0.setContent(html_acdd341592a6088c42dad45ccd264835);
+            
+        
+
+        marker_a8a100c40d6bbe08c0312f2a3a6c689d.bindPopup(popup_631f34bf8bdecd78f68ae5d0d32f72b0)
+        ;
+
+        
+    
+    
+            var marker_df6646b341628bbcbde560e6be0a1b31 = L.marker(
+                [14.92485, 102.19042],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_b478d31e168d4ce53f998ce013cd2692 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6de7f25d602b83609dea15e80a414c9b = $(`<div id="html_6de7f25d602b83609dea15e80a414c9b" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_b478d31e168d4ce53f998ce013cd2692.setContent(html_6de7f25d602b83609dea15e80a414c9b);
+            
+        
+
+        marker_df6646b341628bbcbde560e6be0a1b31.bindPopup(popup_b478d31e168d4ce53f998ce013cd2692)
+        ;
+
+        
+    
+    
+            var marker_2060be15c6b8d6179a39ae4108ed2cc4 = L.marker(
+                [14.9655, 102.11122],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_75857ba04adc21de0b36145321e7eea7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b15886165ecce18410197b17633ff9ab = $(`<div id="html_b15886165ecce18410197b17633ff9ab" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_75857ba04adc21de0b36145321e7eea7.setContent(html_b15886165ecce18410197b17633ff9ab);
+            
+        
+
+        marker_2060be15c6b8d6179a39ae4108ed2cc4.bindPopup(popup_75857ba04adc21de0b36145321e7eea7)
+        ;
+
+        
+    
+    
+            var marker_f5e2a7a6fb9b72047fc71222aeb7d6c6 = L.marker(
+                [14.98017, 102.153998],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_79cab0dc50ed8c61cea2783c381dee18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d061456947b843ee6d10adde253de7dc = $(`<div id="html_d061456947b843ee6d10adde253de7dc" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_79cab0dc50ed8c61cea2783c381dee18.setContent(html_d061456947b843ee6d10adde253de7dc);
+            
+        
+
+        marker_f5e2a7a6fb9b72047fc71222aeb7d6c6.bindPopup(popup_79cab0dc50ed8c61cea2783c381dee18)
+        ;
+
+        
+    
+    
+            var marker_f32332d5912c6bc36b286a0c8d94fa08 = L.marker(
+                [14.93622, 102.13433],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_8050397ac2c8d6217a7aecc0f8691344 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_471253f255c5fb57b6d0dc4e6fdc9e67 = $(`<div id="html_471253f255c5fb57b6d0dc4e6fdc9e67" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_8050397ac2c8d6217a7aecc0f8691344.setContent(html_471253f255c5fb57b6d0dc4e6fdc9e67);
+            
+        
+
+        marker_f32332d5912c6bc36b286a0c8d94fa08.bindPopup(popup_8050397ac2c8d6217a7aecc0f8691344)
+        ;
+
+        
+    
+    
+            var marker_5d8c5d188aa5ef66da56012d0ea70cc7 = L.marker(
+                [14.95321, 102.09616],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_b07f1d34fa3dc82390188fa53cec4a07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36928fb5addfd1d154a676d660e74a68 = $(`<div id="html_36928fb5addfd1d154a676d660e74a68" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_b07f1d34fa3dc82390188fa53cec4a07.setContent(html_36928fb5addfd1d154a676d660e74a68);
+            
+        
+
+        marker_5d8c5d188aa5ef66da56012d0ea70cc7.bindPopup(popup_b07f1d34fa3dc82390188fa53cec4a07)
+        ;
+
+        
+    
+    
+            var marker_ef76745e5911ca41c74714ae033037d9 = L.marker(
+                [14.9295, 102.13912],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_beabb49b3233067d106587fbdf90e4f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f462a2a0ba2179c58f3bdafea5f12c36 = $(`<div id="html_f462a2a0ba2179c58f3bdafea5f12c36" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_beabb49b3233067d106587fbdf90e4f7.setContent(html_f462a2a0ba2179c58f3bdafea5f12c36);
+            
+        
+
+        marker_ef76745e5911ca41c74714ae033037d9.bindPopup(popup_beabb49b3233067d106587fbdf90e4f7)
+        ;
+
+        
+    
+    
+            var marker_c85da5c009173c09613ab36cb62f86b7 = L.marker(
+                [14.99298, 102.20244],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_8df133331236bd4fa04cbcbc75d04628 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29f62ed5b5e2795404e8008b6296160c = $(`<div id="html_29f62ed5b5e2795404e8008b6296160c" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_8df133331236bd4fa04cbcbc75d04628.setContent(html_29f62ed5b5e2795404e8008b6296160c);
+            
+        
+
+        marker_c85da5c009173c09613ab36cb62f86b7.bindPopup(popup_8df133331236bd4fa04cbcbc75d04628)
+        ;
+
+        
+    
+    
+            var marker_eb936fdf07317f2a50198c94ba6c9d51 = L.marker(
+                [14.94976, 102.17065],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_36b04b547bfeff0ed34f8a15ed36502f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e2968eaff79dafcd48b07ac6f359f49 = $(`<div id="html_4e2968eaff79dafcd48b07ac6f359f49" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_36b04b547bfeff0ed34f8a15ed36502f.setContent(html_4e2968eaff79dafcd48b07ac6f359f49);
+            
+        
+
+        marker_eb936fdf07317f2a50198c94ba6c9d51.bindPopup(popup_36b04b547bfeff0ed34f8a15ed36502f)
+        ;
+
+        
+    
+    
+            var marker_f9ed0c08e47acb149fbd188b2562875f = L.marker(
+                [14.93785, 102.1069],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_8851a0cd1c0affaca375641f66d372ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b6d0496262c2a244b1945a750afbeab = $(`<div id="html_9b6d0496262c2a244b1945a750afbeab" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_8851a0cd1c0affaca375641f66d372ac.setContent(html_9b6d0496262c2a244b1945a750afbeab);
+            
+        
+
+        marker_f9ed0c08e47acb149fbd188b2562875f.bindPopup(popup_8851a0cd1c0affaca375641f66d372ac)
+        ;
+
+        
+    
+    
+            var marker_3f3abb7d01f9d7c1495641155907c281 = L.marker(
+                [14.9728, 102.15117],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_80f6d033303571ca24d9c5049561f833 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d45535ac97ea248c9d6807ae0082010 = $(`<div id="html_3d45535ac97ea248c9d6807ae0082010" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_80f6d033303571ca24d9c5049561f833.setContent(html_3d45535ac97ea248c9d6807ae0082010);
+            
+        
+
+        marker_3f3abb7d01f9d7c1495641155907c281.bindPopup(popup_80f6d033303571ca24d9c5049561f833)
+        ;
+
+        
+    
+    
+            var marker_c6209f537b561947727b62c9ca1e1483 = L.marker(
+                [14.956874, 102.119793],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_d4ffced7b87099c20f8c54539d0a7d6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be341eff8f44a52857b8fd61e0e68dfb = $(`<div id="html_be341eff8f44a52857b8fd61e0e68dfb" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_d4ffced7b87099c20f8c54539d0a7d6f.setContent(html_be341eff8f44a52857b8fd61e0e68dfb);
+            
+        
+
+        marker_c6209f537b561947727b62c9ca1e1483.bindPopup(popup_d4ffced7b87099c20f8c54539d0a7d6f)
+        ;
+
+        
+    
+    
+            var marker_f38afa540402640bb5a233c65c3ef20e = L.marker(
+                [14.992332, 102.201409],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_8c47059684b434a86582e95f10dfdd19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb9f44eb0069a28efe18dc6bbef27caf = $(`<div id="html_bb9f44eb0069a28efe18dc6bbef27caf" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_8c47059684b434a86582e95f10dfdd19.setContent(html_bb9f44eb0069a28efe18dc6bbef27caf);
+            
+        
+
+        marker_f38afa540402640bb5a233c65c3ef20e.bindPopup(popup_8c47059684b434a86582e95f10dfdd19)
+        ;
+
+        
+    
+    
+            var marker_087cdc135889064ce83357ca9663ee2b = L.marker(
+                [14.94951, 102.16502],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_55e7b0445ff3ee7038323d8887e4f4ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c0b89dd6b339b5cc004ad909ac13170 = $(`<div id="html_1c0b89dd6b339b5cc004ad909ac13170" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_55e7b0445ff3ee7038323d8887e4f4ac.setContent(html_1c0b89dd6b339b5cc004ad909ac13170);
+            
+        
+
+        marker_087cdc135889064ce83357ca9663ee2b.bindPopup(popup_55e7b0445ff3ee7038323d8887e4f4ac)
+        ;
+
+        
+    
+    
+            var marker_8461bf1a8a16b39768d83e7cb7e3400f = L.marker(
+                [14.96455, 102.09473],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_06bb92dc2814f0c2959236530fb87677 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48b4444be3bfbf8b11a5aa8f373c2cc7 = $(`<div id="html_48b4444be3bfbf8b11a5aa8f373c2cc7" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_06bb92dc2814f0c2959236530fb87677.setContent(html_48b4444be3bfbf8b11a5aa8f373c2cc7);
+            
+        
+
+        marker_8461bf1a8a16b39768d83e7cb7e3400f.bindPopup(popup_06bb92dc2814f0c2959236530fb87677)
+        ;
+
+        
+    
+    
+            var marker_c0f4d5981145030e03a5ebe64fe52840 = L.marker(
+                [14.93266, 101.97947],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_09879eba5711ae32d0597d419a602f36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c837fb5336dc253d8c820a4738f3044 = $(`<div id="html_9c837fb5336dc253d8c820a4738f3044" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_09879eba5711ae32d0597d419a602f36.setContent(html_9c837fb5336dc253d8c820a4738f3044);
+            
+        
+
+        marker_c0f4d5981145030e03a5ebe64fe52840.bindPopup(popup_09879eba5711ae32d0597d419a602f36)
+        ;
+
+        
+    
+    
+            var marker_ccbc6a74d6ae2deae89f39d8e5ff481d = L.marker(
+                [14.95772, 102.04113],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_d5fc81095be0a3a42f122f9fe908df46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13168ffffe905dd4df5e65663abf81f9 = $(`<div id="html_13168ffffe905dd4df5e65663abf81f9" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_d5fc81095be0a3a42f122f9fe908df46.setContent(html_13168ffffe905dd4df5e65663abf81f9);
+            
+        
+
+        marker_ccbc6a74d6ae2deae89f39d8e5ff481d.bindPopup(popup_d5fc81095be0a3a42f122f9fe908df46)
+        ;
+
+        
+    
+    
+            var marker_3c1d65e9f089e9976053863f5b236347 = L.marker(
+                [14.9584, 102.04518],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_20c39aa2d333476d844a86f1e50cf013 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c098b35e3530d12058e03508f6cf2dfa = $(`<div id="html_c098b35e3530d12058e03508f6cf2dfa" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_20c39aa2d333476d844a86f1e50cf013.setContent(html_c098b35e3530d12058e03508f6cf2dfa);
+            
+        
+
+        marker_3c1d65e9f089e9976053863f5b236347.bindPopup(popup_20c39aa2d333476d844a86f1e50cf013)
+        ;
+
+        
+    
+    
+            var marker_3809a6b42a5a282492fbd099edef1733 = L.marker(
+                [14.93635, 101.98893],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_b1d064abfedece657c5e3357e6a6c5ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_400a3ac2248e8a1e2f706d4c9438581e = $(`<div id="html_400a3ac2248e8a1e2f706d4c9438581e" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_b1d064abfedece657c5e3357e6a6c5ed.setContent(html_400a3ac2248e8a1e2f706d4c9438581e);
+            
+        
+
+        marker_3809a6b42a5a282492fbd099edef1733.bindPopup(popup_b1d064abfedece657c5e3357e6a6c5ed)
+        ;
+
+        
+    
+    
+            var marker_1724844e50f0827cf62bc9166447aa9a = L.marker(
+                [14.92086, 101.95154],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_820be3ff190ed9b7573493b6c9cfb1bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80755cebe91951ecfaaa586fcb7900f1 = $(`<div id="html_80755cebe91951ecfaaa586fcb7900f1" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_820be3ff190ed9b7573493b6c9cfb1bf.setContent(html_80755cebe91951ecfaaa586fcb7900f1);
+            
+        
+
+        marker_1724844e50f0827cf62bc9166447aa9a.bindPopup(popup_820be3ff190ed9b7573493b6c9cfb1bf)
+        ;
+
+        
+    
+    
+            var marker_7815c5d414b34d4592d7bbf9d3eb03d3 = L.marker(
+                [14.92722, 101.96736],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_022a83e827b163ef632c036f9a71b991 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_763d2443574e5d951d7a5437f1af203c = $(`<div id="html_763d2443574e5d951d7a5437f1af203c" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_022a83e827b163ef632c036f9a71b991.setContent(html_763d2443574e5d951d7a5437f1af203c);
+            
+        
+
+        marker_7815c5d414b34d4592d7bbf9d3eb03d3.bindPopup(popup_022a83e827b163ef632c036f9a71b991)
+        ;
+
+        
+    
+    
+            var marker_d8ac26dd90cc58c5b81c182522010ddc = L.marker(
+                [14.94927, 102.0536],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_e2d0a0319c9757feeb7b2aff62350f06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32aa1cfbca8da13605bfe3ecbd952b50 = $(`<div id="html_32aa1cfbca8da13605bfe3ecbd952b50" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_e2d0a0319c9757feeb7b2aff62350f06.setContent(html_32aa1cfbca8da13605bfe3ecbd952b50);
+            
+        
+
+        marker_d8ac26dd90cc58c5b81c182522010ddc.bindPopup(popup_e2d0a0319c9757feeb7b2aff62350f06)
+        ;
+
+        
+    
+    
+            var marker_06d9dfa9dc85a639a9ba8b772742e5b5 = L.marker(
+                [14.92788, 101.96962],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_f683e6754f86e76962364cb034caa670 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49fccbb9b355ef38110bfdb84dd310e6 = $(`<div id="html_49fccbb9b355ef38110bfdb84dd310e6" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_f683e6754f86e76962364cb034caa670.setContent(html_49fccbb9b355ef38110bfdb84dd310e6);
+            
+        
+
+        marker_06d9dfa9dc85a639a9ba8b772742e5b5.bindPopup(popup_f683e6754f86e76962364cb034caa670)
+        ;
+
+        
+    
+    
+            var marker_53a2d82e261f68437db12d42e6443eb8 = L.marker(
+                [14.92869, 101.9499],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_f780b3644333f2e3ba9c275b9482cbc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6ff4f27535df9d53bc0a247382647b5 = $(`<div id="html_a6ff4f27535df9d53bc0a247382647b5" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_f780b3644333f2e3ba9c275b9482cbc0.setContent(html_a6ff4f27535df9d53bc0a247382647b5);
+            
+        
+
+        marker_53a2d82e261f68437db12d42e6443eb8.bindPopup(popup_f780b3644333f2e3ba9c275b9482cbc0)
+        ;
+
+        
+    
+    
+            var marker_c400de4ae7c07e52eab18127a795b3c2 = L.marker(
+                [14.9404, 101.980867],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_6e2711748390a06be35838de6b897b3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c80eecbe06121057717113e408a9859 = $(`<div id="html_4c80eecbe06121057717113e408a9859" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_6e2711748390a06be35838de6b897b3c.setContent(html_4c80eecbe06121057717113e408a9859);
+            
+        
+
+        marker_c400de4ae7c07e52eab18127a795b3c2.bindPopup(popup_6e2711748390a06be35838de6b897b3c)
+        ;
+
+        
+    
+    
+            var marker_8455c3f5c53a765ad8013e1fead65158 = L.marker(
+                [14.93957, 102.01984],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_b9d750c60047abd167c391c1abe372bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93154fadb78101ea8bf65c2f36c26ca7 = $(`<div id="html_93154fadb78101ea8bf65c2f36c26ca7" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_b9d750c60047abd167c391c1abe372bb.setContent(html_93154fadb78101ea8bf65c2f36c26ca7);
+            
+        
+
+        marker_8455c3f5c53a765ad8013e1fead65158.bindPopup(popup_b9d750c60047abd167c391c1abe372bb)
+        ;
+
+        
+    
+    
+            var marker_c90f23be5c56b4cb270c5ddbd02ef110 = L.marker(
+                [14.9795, 102.08112],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_9ef250541fcc4b7fdf505bad31f5f6f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56a75ccc676da01af71f54642663fd5f = $(`<div id="html_56a75ccc676da01af71f54642663fd5f" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_9ef250541fcc4b7fdf505bad31f5f6f5.setContent(html_56a75ccc676da01af71f54642663fd5f);
+            
+        
+
+        marker_c90f23be5c56b4cb270c5ddbd02ef110.bindPopup(popup_9ef250541fcc4b7fdf505bad31f5f6f5)
+        ;
+
+        
+    
+    
+            var marker_49bc781a9b6429b7e0146fee85f84ded = L.marker(
+                [14.96156, 102.0544],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_2ee3d9439757444d513414b5e3c75be1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a36588b49699658783d2845ebdef4b9 = $(`<div id="html_4a36588b49699658783d2845ebdef4b9" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_2ee3d9439757444d513414b5e3c75be1.setContent(html_4a36588b49699658783d2845ebdef4b9);
+            
+        
+
+        marker_49bc781a9b6429b7e0146fee85f84ded.bindPopup(popup_2ee3d9439757444d513414b5e3c75be1)
+        ;
+
+        
+    
+    
+            var marker_e2c96a31c0c02ffefeef141359d7de03 = L.marker(
+                [15.00413, 102.05958],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_ad722b7dd15715579906ebb44c031836 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f5ec853bc9ebc90c42f8a968f7182c1 = $(`<div id="html_8f5ec853bc9ebc90c42f8a968f7182c1" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_ad722b7dd15715579906ebb44c031836.setContent(html_8f5ec853bc9ebc90c42f8a968f7182c1);
+            
+        
+
+        marker_e2c96a31c0c02ffefeef141359d7de03.bindPopup(popup_ad722b7dd15715579906ebb44c031836)
+        ;
+
+        
+    
+    
+            var marker_6fc06dcc3717478fd68cc5bdbc88b997 = L.marker(
+                [14.983, 102.04951],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_73bc50702b6046484a7b3e41e1bf64eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_723e9ac0c922136cd0124e34695e09f6 = $(`<div id="html_723e9ac0c922136cd0124e34695e09f6" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_73bc50702b6046484a7b3e41e1bf64eb.setContent(html_723e9ac0c922136cd0124e34695e09f6);
+            
+        
+
+        marker_6fc06dcc3717478fd68cc5bdbc88b997.bindPopup(popup_73bc50702b6046484a7b3e41e1bf64eb)
+        ;
+
+        
+    
+    
+            var marker_a6123e68a69603674560dd8e4ad73284 = L.marker(
+                [15.02712, 102.02355],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_245074385ca84a72d30b5d6b48d45a10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4322ce77fa455dd0a1074ab99dbb7f3 = $(`<div id="html_c4322ce77fa455dd0a1074ab99dbb7f3" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_245074385ca84a72d30b5d6b48d45a10.setContent(html_c4322ce77fa455dd0a1074ab99dbb7f3);
+            
+        
+
+        marker_a6123e68a69603674560dd8e4ad73284.bindPopup(popup_245074385ca84a72d30b5d6b48d45a10)
+        ;
+
+        
+    
+    
+            var marker_b4381370996dd609c0a107811921e062 = L.marker(
+                [14.919881, 101.949283],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_adda70d12d97c11cb771ce49ceed8ba1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ccb74b127cb9d9801e564da90c3bc44 = $(`<div id="html_3ccb74b127cb9d9801e564da90c3bc44" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_adda70d12d97c11cb771ce49ceed8ba1.setContent(html_3ccb74b127cb9d9801e564da90c3bc44);
+            
+        
+
+        marker_b4381370996dd609c0a107811921e062.bindPopup(popup_adda70d12d97c11cb771ce49ceed8ba1)
+        ;
+
+        
+    
+    
+            var marker_f77fbb9c589ea8e0c41854ebc489a97a = L.marker(
+                [14.93697, 102.05295],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_b2550abf24bc12640b48a92c01a92522 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72cb2b3fd3997f48b91d8c6e079472bb = $(`<div id="html_72cb2b3fd3997f48b91d8c6e079472bb" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_b2550abf24bc12640b48a92c01a92522.setContent(html_72cb2b3fd3997f48b91d8c6e079472bb);
+            
+        
+
+        marker_f77fbb9c589ea8e0c41854ebc489a97a.bindPopup(popup_b2550abf24bc12640b48a92c01a92522)
+        ;
+
+        
+    
+    
+            var marker_9afaccc81b0dae63c10f194bb930bdcb = L.marker(
+                [14.95637, 102.01519],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_a1718624df2e02686fa5911059c1ee03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_521ff15ed283ddeab97b62c07adccbd9 = $(`<div id="html_521ff15ed283ddeab97b62c07adccbd9" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_a1718624df2e02686fa5911059c1ee03.setContent(html_521ff15ed283ddeab97b62c07adccbd9);
+            
+        
+
+        marker_9afaccc81b0dae63c10f194bb930bdcb.bindPopup(popup_a1718624df2e02686fa5911059c1ee03)
+        ;
+
+        
+    
+    
+            var marker_8f2fef475ea2edd431e9480a0b687f65 = L.marker(
+                [14.960137, 102.056465],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_4a33c2f60e9fef883ca38a44f1b90fe8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac76a09e2fdbdb950550fdc198f7455d = $(`<div id="html_ac76a09e2fdbdb950550fdc198f7455d" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_4a33c2f60e9fef883ca38a44f1b90fe8.setContent(html_ac76a09e2fdbdb950550fdc198f7455d);
+            
+        
+
+        marker_8f2fef475ea2edd431e9480a0b687f65.bindPopup(popup_4a33c2f60e9fef883ca38a44f1b90fe8)
+        ;
+
+        
+    
+    
+            var marker_c6c839ff447a417567474ee7193103ba = L.marker(
+                [14.91424, 101.93574],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_ee48bd4e75f28e0607cad4bf9fa7fc0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a808c8c9830bc3e3e386cdffc97185eb = $(`<div id="html_a808c8c9830bc3e3e386cdffc97185eb" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_ee48bd4e75f28e0607cad4bf9fa7fc0b.setContent(html_a808c8c9830bc3e3e386cdffc97185eb);
+            
+        
+
+        marker_c6c839ff447a417567474ee7193103ba.bindPopup(popup_ee48bd4e75f28e0607cad4bf9fa7fc0b)
+        ;
+
+        
+    
+    
+            var marker_6b0dafc17ca3b9ca18c8c210ec9016a0 = L.marker(
+                [14.97366, 102.0834],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_ab7d7f1fe853c1d8565c5a37558973fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65632a642f29ba84b8b810158782a267 = $(`<div id="html_65632a642f29ba84b8b810158782a267" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_ab7d7f1fe853c1d8565c5a37558973fb.setContent(html_65632a642f29ba84b8b810158782a267);
+            
+        
+
+        marker_6b0dafc17ca3b9ca18c8c210ec9016a0.bindPopup(popup_ab7d7f1fe853c1d8565c5a37558973fb)
+        ;
+
+        
+    
+    
+            var marker_dd78a4d52e7cef94102b3a21b5a797ba = L.marker(
+                [14.93912, 102.0223],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_f63323ff9c3a0a40456addb02c1fa851 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8bce8b60c0bec7e39dec11c8d6559a9 = $(`<div id="html_b8bce8b60c0bec7e39dec11c8d6559a9" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_f63323ff9c3a0a40456addb02c1fa851.setContent(html_b8bce8b60c0bec7e39dec11c8d6559a9);
+            
+        
+
+        marker_dd78a4d52e7cef94102b3a21b5a797ba.bindPopup(popup_f63323ff9c3a0a40456addb02c1fa851)
+        ;
+
+        
+    
+    
+            var marker_966e47386ddf7df8f7f9b2d7df79af53 = L.marker(
+                [14.95905, 102.05399],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_49b63eaedc19c385535183c070755fb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbbca0a46d14dc12e9924d6ecb734f9e = $(`<div id="html_bbbca0a46d14dc12e9924d6ecb734f9e" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_49b63eaedc19c385535183c070755fb0.setContent(html_bbbca0a46d14dc12e9924d6ecb734f9e);
+            
+        
+
+        marker_966e47386ddf7df8f7f9b2d7df79af53.bindPopup(popup_49b63eaedc19c385535183c070755fb0)
+        ;
+
+        
+    
+    
+            var marker_4639edc624edd6b62194dde93d3defc1 = L.marker(
+                [14.94981, 102.03954],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_251f9fe65937d1073dbf6afd45743049 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b61852939cb55baabb610e6d92c8d5b3 = $(`<div id="html_b61852939cb55baabb610e6d92c8d5b3" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_251f9fe65937d1073dbf6afd45743049.setContent(html_b61852939cb55baabb610e6d92c8d5b3);
+            
+        
+
+        marker_4639edc624edd6b62194dde93d3defc1.bindPopup(popup_251f9fe65937d1073dbf6afd45743049)
+        ;
+
+        
+    
+    
+            var marker_f64a19ecf11a3faa9522841963fd3399 = L.marker(
+                [14.94692, 102.014],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_a6a68016d0787f9213cccea0e5442d23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b310fd604b2cbe042e56a5b147b6482a = $(`<div id="html_b310fd604b2cbe042e56a5b147b6482a" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_a6a68016d0787f9213cccea0e5442d23.setContent(html_b310fd604b2cbe042e56a5b147b6482a);
+            
+        
+
+        marker_f64a19ecf11a3faa9522841963fd3399.bindPopup(popup_a6a68016d0787f9213cccea0e5442d23)
+        ;
+
+        
+    
+    
+            var marker_74b5377e9b13d9cf3422f6f1d569ab39 = L.marker(
+                [14.994787, 102.075412],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_03948e11ab690ec26aa685c6bb3d7664 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0c1f501d2bae8f6ad2587cd25d4382e = $(`<div id="html_f0c1f501d2bae8f6ad2587cd25d4382e" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_03948e11ab690ec26aa685c6bb3d7664.setContent(html_f0c1f501d2bae8f6ad2587cd25d4382e);
+            
+        
+
+        marker_74b5377e9b13d9cf3422f6f1d569ab39.bindPopup(popup_03948e11ab690ec26aa685c6bb3d7664)
+        ;
+
+        
+    
+    
+            var marker_1c98764c63df7a9e9b64d07615470a15 = L.marker(
+                [15.01002, 101.99555],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_bd642afc32c7c9f87477f1dc477ccf02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b61b1317b2b363828160c670c90384a4 = $(`<div id="html_b61b1317b2b363828160c670c90384a4" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_bd642afc32c7c9f87477f1dc477ccf02.setContent(html_b61b1317b2b363828160c670c90384a4);
+            
+        
+
+        marker_1c98764c63df7a9e9b64d07615470a15.bindPopup(popup_bd642afc32c7c9f87477f1dc477ccf02)
+        ;
+
+        
+    
+    
+            var marker_a8af2aab1b9013c2a38942be590abf50 = L.marker(
+                [15.00368, 102.02811],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_6ce19d0469372461225b41c341114927 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cd3b08d1f32dcb251c57b07f785f1e2 = $(`<div id="html_6cd3b08d1f32dcb251c57b07f785f1e2" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_6ce19d0469372461225b41c341114927.setContent(html_6cd3b08d1f32dcb251c57b07f785f1e2);
+            
+        
+
+        marker_a8af2aab1b9013c2a38942be590abf50.bindPopup(popup_6ce19d0469372461225b41c341114927)
+        ;
+
+        
+    
+    
+            var marker_33d61b70098c54b144e92c4542bed182 = L.marker(
+                [14.913495, 101.935264],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_72f92c886b1dc5653408251c03d0eced = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43a4e2b3f37dc9c70f7c60f17b92e41e = $(`<div id="html_43a4e2b3f37dc9c70f7c60f17b92e41e" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_72f92c886b1dc5653408251c03d0eced.setContent(html_43a4e2b3f37dc9c70f7c60f17b92e41e);
+            
+        
+
+        marker_33d61b70098c54b144e92c4542bed182.bindPopup(popup_72f92c886b1dc5653408251c03d0eced)
+        ;
+
+        
+    
+    
+            var marker_48d0fff3291088347c1f7aaee6070a3e = L.marker(
+                [14.99108, 102.05342],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_e5c93083cf95f2ae3ad41338867157c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_510a65668886f3bd2d6f4c983730dba8 = $(`<div id="html_510a65668886f3bd2d6f4c983730dba8" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_e5c93083cf95f2ae3ad41338867157c8.setContent(html_510a65668886f3bd2d6f4c983730dba8);
+            
+        
+
+        marker_48d0fff3291088347c1f7aaee6070a3e.bindPopup(popup_e5c93083cf95f2ae3ad41338867157c8)
+        ;
+
+        
+    
+    
+            var marker_d2f1e8e0c7eb37242e557fe0fcfadf4c = L.marker(
+                [14.98177, 102.06351],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_ad6d9ff51bfa549e1327d747751ce585 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a141d983cd5be7068e10d99c8c42aec = $(`<div id="html_0a141d983cd5be7068e10d99c8c42aec" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_ad6d9ff51bfa549e1327d747751ce585.setContent(html_0a141d983cd5be7068e10d99c8c42aec);
+            
+        
+
+        marker_d2f1e8e0c7eb37242e557fe0fcfadf4c.bindPopup(popup_ad6d9ff51bfa549e1327d747751ce585)
+        ;
+
+        
+    
+    
+            var marker_50a02b17be6c98e6d7095e7be7028d36 = L.marker(
+                [14.999288, 102.05605],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_e22994a8a530ee7604a8a9d78566c0fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d47651cbb03686c3df494e3e0e657bbf = $(`<div id="html_d47651cbb03686c3df494e3e0e657bbf" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_e22994a8a530ee7604a8a9d78566c0fd.setContent(html_d47651cbb03686c3df494e3e0e657bbf);
+            
+        
+
+        marker_50a02b17be6c98e6d7095e7be7028d36.bindPopup(popup_e22994a8a530ee7604a8a9d78566c0fd)
+        ;
+
+        
+    
+    
+            var marker_6d6385d4ec7c501fa410b1b2e775b90b = L.marker(
+                [14.980337, 102.013909],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_b18e2688f26720e038a6b281276818b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee2384466bf0e45e1e58cfb91b68e112 = $(`<div id="html_ee2384466bf0e45e1e58cfb91b68e112" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_b18e2688f26720e038a6b281276818b1.setContent(html_ee2384466bf0e45e1e58cfb91b68e112);
+            
+        
+
+        marker_6d6385d4ec7c501fa410b1b2e775b90b.bindPopup(popup_b18e2688f26720e038a6b281276818b1)
+        ;
+
+        
+    
+    
+            var marker_de4a595471d0f84ba15b2423b9bec9c8 = L.marker(
+                [15.00731, 102.05985],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_22f8be66aea00c362d8fc3afdf259ca0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23d19883a849b55eafc3394577d5c924 = $(`<div id="html_23d19883a849b55eafc3394577d5c924" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_22f8be66aea00c362d8fc3afdf259ca0.setContent(html_23d19883a849b55eafc3394577d5c924);
+            
+        
+
+        marker_de4a595471d0f84ba15b2423b9bec9c8.bindPopup(popup_22f8be66aea00c362d8fc3afdf259ca0)
+        ;
+
+        
+    
+    
+            var marker_880c2ce261dfe15d1d04968bea6d2bdd = L.marker(
+                [14.96602, 102.05166],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_aabea4a2965ae9a3d9e1341af3166214 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_765351760cf5435bab7427997c39824c = $(`<div id="html_765351760cf5435bab7427997c39824c" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_aabea4a2965ae9a3d9e1341af3166214.setContent(html_765351760cf5435bab7427997c39824c);
+            
+        
+
+        marker_880c2ce261dfe15d1d04968bea6d2bdd.bindPopup(popup_aabea4a2965ae9a3d9e1341af3166214)
+        ;
+
+        
+    
+    
+            var marker_bd40595b7e21ba7c40ad2127fa1fbe35 = L.marker(
+                [14.94033, 102.0369],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_336ec5a3890161f5c1452692b9f5bfa9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee8386f1a4db90cfadad6e760b83ff93 = $(`<div id="html_ee8386f1a4db90cfadad6e760b83ff93" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_336ec5a3890161f5c1452692b9f5bfa9.setContent(html_ee8386f1a4db90cfadad6e760b83ff93);
+            
+        
+
+        marker_bd40595b7e21ba7c40ad2127fa1fbe35.bindPopup(popup_336ec5a3890161f5c1452692b9f5bfa9)
+        ;
+
+        
+    
+    
+            var marker_1dde1fc0b8d7fb74ae58938399004fb9 = L.marker(
+                [14.93549, 101.98583],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_8ac3297ef00fd749e50ba5782c8307ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2c6a8ca86d6196d6bab3a59eb775a1d = $(`<div id="html_a2c6a8ca86d6196d6bab3a59eb775a1d" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_8ac3297ef00fd749e50ba5782c8307ad.setContent(html_a2c6a8ca86d6196d6bab3a59eb775a1d);
+            
+        
+
+        marker_1dde1fc0b8d7fb74ae58938399004fb9.bindPopup(popup_8ac3297ef00fd749e50ba5782c8307ad)
+        ;
+
+        
+    
+    
+            var marker_3e73cce8ba6421d7bdc059dc40ce4616 = L.marker(
+                [14.96292, 102.05281],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_df8de8fa1e9c078e535a32f29a4d2ee6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b73fa822cbb53289a24acbcbeca0185c = $(`<div id="html_b73fa822cbb53289a24acbcbeca0185c" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_df8de8fa1e9c078e535a32f29a4d2ee6.setContent(html_b73fa822cbb53289a24acbcbeca0185c);
+            
+        
+
+        marker_3e73cce8ba6421d7bdc059dc40ce4616.bindPopup(popup_df8de8fa1e9c078e535a32f29a4d2ee6)
+        ;
+
+        
+    
+    
+            var marker_d548a31fce7d21ca550c57ca87f749d7 = L.marker(
+                [14.95274, 102.05364],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_820c97f9a035094e33a6664af7fb2b0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_daebe92cab054a3add6ff262466c6f12 = $(`<div id="html_daebe92cab054a3add6ff262466c6f12" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_820c97f9a035094e33a6664af7fb2b0e.setContent(html_daebe92cab054a3add6ff262466c6f12);
+            
+        
+
+        marker_d548a31fce7d21ca550c57ca87f749d7.bindPopup(popup_820c97f9a035094e33a6664af7fb2b0e)
+        ;
+
+        
+    
+    
+            var marker_d509f0fccebf0416662c7806824a0ebc = L.marker(
+                [14.93296, 101.94669],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_a84667f5db064b53a9492a04e22ab60d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b831cd5bd40ac4e7461274fc2ff004f = $(`<div id="html_2b831cd5bd40ac4e7461274fc2ff004f" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_a84667f5db064b53a9492a04e22ab60d.setContent(html_2b831cd5bd40ac4e7461274fc2ff004f);
+            
+        
+
+        marker_d509f0fccebf0416662c7806824a0ebc.bindPopup(popup_a84667f5db064b53a9492a04e22ab60d)
+        ;
+
+        
+    
+    
+            var marker_5ace4110dc7a59d4f487f156184991e8 = L.marker(
+                [14.92805, 101.96922],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_b1172b31ba50ba726a35e0bac35f7df2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e7c4309a8a830679344326b0d3d7af1 = $(`<div id="html_2e7c4309a8a830679344326b0d3d7af1" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_b1172b31ba50ba726a35e0bac35f7df2.setContent(html_2e7c4309a8a830679344326b0d3d7af1);
+            
+        
+
+        marker_5ace4110dc7a59d4f487f156184991e8.bindPopup(popup_b1172b31ba50ba726a35e0bac35f7df2)
+        ;
+
+        
+    
+    
+            var marker_e4d231f43c7bbd5f7c2eed6b3574d334 = L.marker(
+                [14.9719, 102.07762],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_19ecde6714b5cbb1993781df2ca7e02a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e62386eb7b592a0e0ed7c0cf47fa5eed = $(`<div id="html_e62386eb7b592a0e0ed7c0cf47fa5eed" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_19ecde6714b5cbb1993781df2ca7e02a.setContent(html_e62386eb7b592a0e0ed7c0cf47fa5eed);
+            
+        
+
+        marker_e4d231f43c7bbd5f7c2eed6b3574d334.bindPopup(popup_19ecde6714b5cbb1993781df2ca7e02a)
+        ;
+
+        
+    
+    
+            var marker_6015ec8e3de439c1ccf0b1d297dfac4a = L.marker(
+                [14.93013, 101.97449],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_7b5947928de1998e4350103e42564413 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b180138e01e3aac4f6f019551bf8a140 = $(`<div id="html_b180138e01e3aac4f6f019551bf8a140" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_7b5947928de1998e4350103e42564413.setContent(html_b180138e01e3aac4f6f019551bf8a140);
+            
+        
+
+        marker_6015ec8e3de439c1ccf0b1d297dfac4a.bindPopup(popup_7b5947928de1998e4350103e42564413)
+        ;
+
+        
+    
+    
+            var marker_02ed0d4d2d162149e5058477b6026331 = L.marker(
+                [14.97719, 102.05194],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_0f470f16df1245ab7ac2a03544e75556 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63ff1e902372e6d52e7dcad485c2f78b = $(`<div id="html_63ff1e902372e6d52e7dcad485c2f78b" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_0f470f16df1245ab7ac2a03544e75556.setContent(html_63ff1e902372e6d52e7dcad485c2f78b);
+            
+        
+
+        marker_02ed0d4d2d162149e5058477b6026331.bindPopup(popup_0f470f16df1245ab7ac2a03544e75556)
+        ;
+
+        
+    
+    
+            var marker_5d072e79dbcda3fd5bb353f4b6cb2a02 = L.marker(
+                [14.94665, 102.01389],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_4feb906b90ec22c9472ebf4472a309e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9306eea06e77cdfd981d9a56e8be15c8 = $(`<div id="html_9306eea06e77cdfd981d9a56e8be15c8" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_4feb906b90ec22c9472ebf4472a309e5.setContent(html_9306eea06e77cdfd981d9a56e8be15c8);
+            
+        
+
+        marker_5d072e79dbcda3fd5bb353f4b6cb2a02.bindPopup(popup_4feb906b90ec22c9472ebf4472a309e5)
+        ;
+
+        
+    
+    
+            var marker_a2e806f6757a5cd13852a967900d9d07 = L.marker(
+                [14.95719, 102.03834],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_2a46f8273b098cbbbd32cfebf7306e80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d38ca8909d775e6481e075956e9f9927 = $(`<div id="html_d38ca8909d775e6481e075956e9f9927" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_2a46f8273b098cbbbd32cfebf7306e80.setContent(html_d38ca8909d775e6481e075956e9f9927);
+            
+        
+
+        marker_a2e806f6757a5cd13852a967900d9d07.bindPopup(popup_2a46f8273b098cbbbd32cfebf7306e80)
+        ;
+
+        
+    
+    
+            var marker_448ddc84ae95660b17aa76528287243d = L.marker(
+                [14.9804, 102.0505],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_1f3c45dc29ae55117fda0a1fc4e29f35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb8b02ec07b8d4cb4c926d7c0c5f6ee0 = $(`<div id="html_fb8b02ec07b8d4cb4c926d7c0c5f6ee0" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_1f3c45dc29ae55117fda0a1fc4e29f35.setContent(html_fb8b02ec07b8d4cb4c926d7c0c5f6ee0);
+            
+        
+
+        marker_448ddc84ae95660b17aa76528287243d.bindPopup(popup_1f3c45dc29ae55117fda0a1fc4e29f35)
+        ;
+
+        
+    
+    
+            var marker_770d4a780071664f4f27757a3fc5e8cc = L.marker(
+                [14.94079, 102.05423],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_ab933b39b3de08557349786d14ddd6aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0717975cb377fca66ffd02c7e048ee8c = $(`<div id="html_0717975cb377fca66ffd02c7e048ee8c" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_ab933b39b3de08557349786d14ddd6aa.setContent(html_0717975cb377fca66ffd02c7e048ee8c);
+            
+        
+
+        marker_770d4a780071664f4f27757a3fc5e8cc.bindPopup(popup_ab933b39b3de08557349786d14ddd6aa)
+        ;
+
+        
+    
+    
+            var marker_434784d3ec9c813ceab90c79eb3fca8f = L.marker(
+                [14.94944, 102.05406],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_ed4a8f186bdc9e08dcb3c69362e3a80e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd1c130fd7bbe361e801f231a991c30f = $(`<div id="html_dd1c130fd7bbe361e801f231a991c30f" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_ed4a8f186bdc9e08dcb3c69362e3a80e.setContent(html_dd1c130fd7bbe361e801f231a991c30f);
+            
+        
+
+        marker_434784d3ec9c813ceab90c79eb3fca8f.bindPopup(popup_ed4a8f186bdc9e08dcb3c69362e3a80e)
+        ;
+
+        
+    
+    
+            var marker_90b5f2dfe4a02f3ecc32e94bb5b6eeca = L.marker(
+                [14.96087, 102.04737],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_bfe51ed245d412dbd9217cd0e2c15f27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cf419b2be08a200cace818fff74bbb1 = $(`<div id="html_6cf419b2be08a200cace818fff74bbb1" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_bfe51ed245d412dbd9217cd0e2c15f27.setContent(html_6cf419b2be08a200cace818fff74bbb1);
+            
+        
+
+        marker_90b5f2dfe4a02f3ecc32e94bb5b6eeca.bindPopup(popup_bfe51ed245d412dbd9217cd0e2c15f27)
+        ;
+
+        
+    
+    
+            var marker_488e35fdca4c64044ed1d0c9767fd6a7 = L.marker(
+                [14.9372, 101.99178],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_7fff97f98203c1e884d37e975d0893a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f64a75840bd55162a5fe1ba076f865c = $(`<div id="html_0f64a75840bd55162a5fe1ba076f865c" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_7fff97f98203c1e884d37e975d0893a3.setContent(html_0f64a75840bd55162a5fe1ba076f865c);
+            
+        
+
+        marker_488e35fdca4c64044ed1d0c9767fd6a7.bindPopup(popup_7fff97f98203c1e884d37e975d0893a3)
+        ;
+
+        
+    
+    
+            var marker_eeb9b29f01230f1b4cc83ff7d489adf1 = L.marker(
+                [14.987005, 102.05223],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_ce1a82373da0c308d3fa90f16f560cf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad5d45e28186df72c6c757ff30a998ca = $(`<div id="html_ad5d45e28186df72c6c757ff30a998ca" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_ce1a82373da0c308d3fa90f16f560cf2.setContent(html_ad5d45e28186df72c6c757ff30a998ca);
+            
+        
+
+        marker_eeb9b29f01230f1b4cc83ff7d489adf1.bindPopup(popup_ce1a82373da0c308d3fa90f16f560cf2)
+        ;
+
+        
+    
+    
+            var marker_efc01bf3bcae62c05cabe3ae7d94b4c2 = L.marker(
+                [14.9498, 102.02029],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_9e19e3137f19d1bd3556102c9d27b85b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de77f715585dd4628c19088ae9b7e7eb = $(`<div id="html_de77f715585dd4628c19088ae9b7e7eb" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_9e19e3137f19d1bd3556102c9d27b85b.setContent(html_de77f715585dd4628c19088ae9b7e7eb);
+            
+        
+
+        marker_efc01bf3bcae62c05cabe3ae7d94b4c2.bindPopup(popup_9e19e3137f19d1bd3556102c9d27b85b)
+        ;
+
+        
+    
+    
+            var marker_a9a960ccdf1d4ceab5c9594cc52bd962 = L.marker(
+                [14.97958, 102.0827],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_535dc6d18634c6382615a14d9abb90b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3809f06c704d698629b25f51fb6626c6 = $(`<div id="html_3809f06c704d698629b25f51fb6626c6" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_535dc6d18634c6382615a14d9abb90b4.setContent(html_3809f06c704d698629b25f51fb6626c6);
+            
+        
+
+        marker_a9a960ccdf1d4ceab5c9594cc52bd962.bindPopup(popup_535dc6d18634c6382615a14d9abb90b4)
+        ;
+
+        
+    
+    
+            var marker_d4785f5e287a2b4f88e1b8e186bed83e = L.marker(
+                [14.92747, 101.96766],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_6c722d1e94b3a4b926ccbc72c1c78404 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f63639f08cf8b03a5d9e4475ce47a62 = $(`<div id="html_9f63639f08cf8b03a5d9e4475ce47a62" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_6c722d1e94b3a4b926ccbc72c1c78404.setContent(html_9f63639f08cf8b03a5d9e4475ce47a62);
+            
+        
+
+        marker_d4785f5e287a2b4f88e1b8e186bed83e.bindPopup(popup_6c722d1e94b3a4b926ccbc72c1c78404)
+        ;
+
+        
+    
+    
+            var marker_164b993afa1739bf30861078ac795ba8 = L.marker(
+                [15.08596, 102.11197],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_6da5dd07d17cdd2098cfc3eaeb68a185 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1a55d2578dc6d712ef4375dc3ef3d75 = $(`<div id="html_e1a55d2578dc6d712ef4375dc3ef3d75" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_6da5dd07d17cdd2098cfc3eaeb68a185.setContent(html_e1a55d2578dc6d712ef4375dc3ef3d75);
+            
+        
+
+        marker_164b993afa1739bf30861078ac795ba8.bindPopup(popup_6da5dd07d17cdd2098cfc3eaeb68a185)
+        ;
+
+        
+    
+    
+            var marker_2455d4c9d2e5f3fca6d1f660e214d0bd = L.marker(
+                [15.02044, 102.07205],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_32a5cb4ec3f34458278d1bfa0f9bffb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd506394d0270fe2650e75532709a1a3 = $(`<div id="html_bd506394d0270fe2650e75532709a1a3" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_32a5cb4ec3f34458278d1bfa0f9bffb2.setContent(html_bd506394d0270fe2650e75532709a1a3);
+            
+        
+
+        marker_2455d4c9d2e5f3fca6d1f660e214d0bd.bindPopup(popup_32a5cb4ec3f34458278d1bfa0f9bffb2)
+        ;
+
+        
+    
+    
+            var marker_22bf5c76bc6ac5946dd08d843a4a0c3a = L.marker(
+                [15.00411, 102.12103],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_22fc37a571867aca36f70b89f504502e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6faba05915160eca38529b1ed7945c6 = $(`<div id="html_e6faba05915160eca38529b1ed7945c6" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_22fc37a571867aca36f70b89f504502e.setContent(html_e6faba05915160eca38529b1ed7945c6);
+            
+        
+
+        marker_22bf5c76bc6ac5946dd08d843a4a0c3a.bindPopup(popup_22fc37a571867aca36f70b89f504502e)
+        ;
+
+        
+    
+    
+            var marker_046d47a8107b9dd0b5d48391ec19cac3 = L.marker(
+                [15.0867, 102.11156],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_e0849b4e07cf7b40c8a5747013814283 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a973c4ac4da902497db36fc3eb5ef8b = $(`<div id="html_7a973c4ac4da902497db36fc3eb5ef8b" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_e0849b4e07cf7b40c8a5747013814283.setContent(html_7a973c4ac4da902497db36fc3eb5ef8b);
+            
+        
+
+        marker_046d47a8107b9dd0b5d48391ec19cac3.bindPopup(popup_e0849b4e07cf7b40c8a5747013814283)
+        ;
+
+        
+    
+    
+            var marker_766826dc9abf405749103bafa5a38047 = L.marker(
+                [15.03544, 102.11351],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_1a2494d322ec7edfff014c62c49c2d37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d67e94a5c50acb213078f81c26bf612d = $(`<div id="html_d67e94a5c50acb213078f81c26bf612d" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_1a2494d322ec7edfff014c62c49c2d37.setContent(html_d67e94a5c50acb213078f81c26bf612d);
+            
+        
+
+        marker_766826dc9abf405749103bafa5a38047.bindPopup(popup_1a2494d322ec7edfff014c62c49c2d37)
+        ;
+
+        
+    
+    
+            var marker_b67d4996e8bb592dc0771ba0247d013b = L.marker(
+                [15.0148, 102.06479],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_a4931956f35a9f819519a151233b9119 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b0026d91af602d502d528e9776b76c9 = $(`<div id="html_1b0026d91af602d502d528e9776b76c9" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_a4931956f35a9f819519a151233b9119.setContent(html_1b0026d91af602d502d528e9776b76c9);
+            
+        
+
+        marker_b67d4996e8bb592dc0771ba0247d013b.bindPopup(popup_a4931956f35a9f819519a151233b9119)
+        ;
+
+        
+    
+    
+            var marker_93be2d0faaa407f0cd5a036c10a5c9b1 = L.marker(
+                [14.99599, 102.10535],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_601402a1221489efb09d04547ae76fbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ff1ba5ad1cc000753eb9b226b25b495 = $(`<div id="html_8ff1ba5ad1cc000753eb9b226b25b495" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_601402a1221489efb09d04547ae76fbb.setContent(html_8ff1ba5ad1cc000753eb9b226b25b495);
+            
+        
+
+        marker_93be2d0faaa407f0cd5a036c10a5c9b1.bindPopup(popup_601402a1221489efb09d04547ae76fbb)
+        ;
+
+        
+    
+    
+            var marker_ea7ec04ea6958d4855ecc9b13ffb4cc6 = L.marker(
+                [15.00384, 102.14972],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_359fd5a18a415ec4fdc3cec265dc6dd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d7510cdcaf187e07e68694f084f8f7b = $(`<div id="html_6d7510cdcaf187e07e68694f084f8f7b" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_359fd5a18a415ec4fdc3cec265dc6dd7.setContent(html_6d7510cdcaf187e07e68694f084f8f7b);
+            
+        
+
+        marker_ea7ec04ea6958d4855ecc9b13ffb4cc6.bindPopup(popup_359fd5a18a415ec4fdc3cec265dc6dd7)
+        ;
+
+        
+    
+    
+            var marker_fd9bc31439ed12264a09c577079defa1 = L.marker(
+                [15.076455, 102.116712],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_421d1eef4155f83421da6ca0f524b840 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b81aaa1a5d22670b612c207b2f0261f1 = $(`<div id="html_b81aaa1a5d22670b612c207b2f0261f1" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_421d1eef4155f83421da6ca0f524b840.setContent(html_b81aaa1a5d22670b612c207b2f0261f1);
+            
+        
+
+        marker_fd9bc31439ed12264a09c577079defa1.bindPopup(popup_421d1eef4155f83421da6ca0f524b840)
+        ;
+
+        
+    
+    
+            var marker_bdb74b0ba350165061072d69fd841fa8 = L.marker(
+                [15.06569, 102.19187],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_b6b1c68e3c831eabfcdc557bd2702620 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4288e4d257c5ffdb966fb99d5c7143a5 = $(`<div id="html_4288e4d257c5ffdb966fb99d5c7143a5" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_b6b1c68e3c831eabfcdc557bd2702620.setContent(html_4288e4d257c5ffdb966fb99d5c7143a5);
+            
+        
+
+        marker_bdb74b0ba350165061072d69fd841fa8.bindPopup(popup_b6b1c68e3c831eabfcdc557bd2702620)
+        ;
+
+        
+    
+    
+            var marker_a4eba75e0b481225135ee8446db7f27d = L.marker(
+                [15.057097, 102.125769],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_2f64d4228bf9558591ef7ec186cb441b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43c0a376306b152122e8fac566eba70d = $(`<div id="html_43c0a376306b152122e8fac566eba70d" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_2f64d4228bf9558591ef7ec186cb441b.setContent(html_43c0a376306b152122e8fac566eba70d);
+            
+        
+
+        marker_a4eba75e0b481225135ee8446db7f27d.bindPopup(popup_2f64d4228bf9558591ef7ec186cb441b)
+        ;
+
+        
+    
+    
+            var marker_77625ead59b72bdf5e5ca1cfa7a3b9a4 = L.marker(
+                [15.00644, 102.12354],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_f1624749d99b5cc8840cdb1d13e62d31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd2142fa7beecd7a59c379e8436155e5 = $(`<div id="html_dd2142fa7beecd7a59c379e8436155e5" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_f1624749d99b5cc8840cdb1d13e62d31.setContent(html_dd2142fa7beecd7a59c379e8436155e5);
+            
+        
+
+        marker_77625ead59b72bdf5e5ca1cfa7a3b9a4.bindPopup(popup_f1624749d99b5cc8840cdb1d13e62d31)
+        ;
+
+        
+    
+    
+            var marker_2b53f73723df2efaed50083016a9cb62 = L.marker(
+                [15.047687, 102.06189],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_18deb7986dfbe1ed42d91dc84b5c2103 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76a4e78be845c9c391775b15d350d909 = $(`<div id="html_76a4e78be845c9c391775b15d350d909" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_18deb7986dfbe1ed42d91dc84b5c2103.setContent(html_76a4e78be845c9c391775b15d350d909);
+            
+        
+
+        marker_2b53f73723df2efaed50083016a9cb62.bindPopup(popup_18deb7986dfbe1ed42d91dc84b5c2103)
+        ;
+
+        
+    
+    
+            var marker_99c0ac6799122432dc32c95d0c961dd1 = L.marker(
+                [14.98519, 102.10235],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_0759bad64bd36b0c8d44c2a22e119f69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e0b003ad96f18a95cb9d35f0db10942 = $(`<div id="html_0e0b003ad96f18a95cb9d35f0db10942" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_0759bad64bd36b0c8d44c2a22e119f69.setContent(html_0e0b003ad96f18a95cb9d35f0db10942);
+            
+        
+
+        marker_99c0ac6799122432dc32c95d0c961dd1.bindPopup(popup_0759bad64bd36b0c8d44c2a22e119f69)
+        ;
+
+        
+    
+    
+            var marker_968162f98c38915d085e52f9c98bae90 = L.marker(
+                [15.00776, 102.13902],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_c1fa1fb281b85e71d43741e82886c3c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c96ce515ce5744dafcb25c5c9100ab38 = $(`<div id="html_c96ce515ce5744dafcb25c5c9100ab38" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_c1fa1fb281b85e71d43741e82886c3c0.setContent(html_c96ce515ce5744dafcb25c5c9100ab38);
+            
+        
+
+        marker_968162f98c38915d085e52f9c98bae90.bindPopup(popup_c1fa1fb281b85e71d43741e82886c3c0)
+        ;
+
+        
+    
+    
+            var marker_721541687d3bc35f8f585fa3b24a44cd = L.marker(
+                [15.00336, 102.121305],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_b15c060a513b8f46410ce5204e9d3ade = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffaa37e66cded251a50d6fa546c7a987 = $(`<div id="html_ffaa37e66cded251a50d6fa546c7a987" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_b15c060a513b8f46410ce5204e9d3ade.setContent(html_ffaa37e66cded251a50d6fa546c7a987);
+            
+        
+
+        marker_721541687d3bc35f8f585fa3b24a44cd.bindPopup(popup_b15c060a513b8f46410ce5204e9d3ade)
+        ;
+
+        
+    
+    
+            var marker_f48fce37064df7f669f72e986757680e = L.marker(
+                [15.04698, 102.15357],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_77bc22d7f2aa430fb7e334d794914925 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84ae1ec5d24aca0dc68d60f8333eb9ad = $(`<div id="html_84ae1ec5d24aca0dc68d60f8333eb9ad" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_77bc22d7f2aa430fb7e334d794914925.setContent(html_84ae1ec5d24aca0dc68d60f8333eb9ad);
+            
+        
+
+        marker_f48fce37064df7f669f72e986757680e.bindPopup(popup_77bc22d7f2aa430fb7e334d794914925)
+        ;
+
+        
+    
+    
+            var marker_240783eb18d44c1ebec0eff6771e839b = L.marker(
+                [15.00153, 102.14538],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_7167d1d4574591bf4626b7c8f47037b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7dc39b52f474e7c3ad71f5f36a96afe3 = $(`<div id="html_7dc39b52f474e7c3ad71f5f36a96afe3" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_7167d1d4574591bf4626b7c8f47037b6.setContent(html_7dc39b52f474e7c3ad71f5f36a96afe3);
+            
+        
+
+        marker_240783eb18d44c1ebec0eff6771e839b.bindPopup(popup_7167d1d4574591bf4626b7c8f47037b6)
+        ;
+
+        
+    
+    
+            var marker_fc906bd1337d801a41fac3affcfd4aa3 = L.marker(
+                [15.01278, 102.07967],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_6d875812fc80ad9bcb220e9be2f62db5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c72490bf1c72b172f0c3f6881d52f186 = $(`<div id="html_c72490bf1c72b172f0c3f6881d52f186" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_6d875812fc80ad9bcb220e9be2f62db5.setContent(html_c72490bf1c72b172f0c3f6881d52f186);
+            
+        
+
+        marker_fc906bd1337d801a41fac3affcfd4aa3.bindPopup(popup_6d875812fc80ad9bcb220e9be2f62db5)
+        ;
+
+        
+    
+    
+            var marker_5312783851c84a7ec067242e54cb772a = L.marker(
+                [15.057438, 102.11247],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_d48840532b3248e7bb24d9020ef18bef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_271131350eda37e61b734a4fb4114f08 = $(`<div id="html_271131350eda37e61b734a4fb4114f08" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_d48840532b3248e7bb24d9020ef18bef.setContent(html_271131350eda37e61b734a4fb4114f08);
+            
+        
+
+        marker_5312783851c84a7ec067242e54cb772a.bindPopup(popup_d48840532b3248e7bb24d9020ef18bef)
+        ;
+
+        
+    
+    
+            var marker_3760c31824fb2445f192fc3319174525 = L.marker(
+                [15.016812, 102.171508],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_8177f2e031f25276a4263b331ef9712a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df4baa849ab689550604281cce503545 = $(`<div id="html_df4baa849ab689550604281cce503545" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_8177f2e031f25276a4263b331ef9712a.setContent(html_df4baa849ab689550604281cce503545);
+            
+        
+
+        marker_3760c31824fb2445f192fc3319174525.bindPopup(popup_8177f2e031f25276a4263b331ef9712a)
+        ;
+
+        
+    
+    
+            var marker_d6ef7b62feaa52a7ccfbe669e3af2b2a = L.marker(
+                [15.00568, 102.16472],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_a58587663057b018eed0c0e3b4ce6be7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c0bdffeebb60dfb0925e81f2e039469 = $(`<div id="html_7c0bdffeebb60dfb0925e81f2e039469" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_a58587663057b018eed0c0e3b4ce6be7.setContent(html_7c0bdffeebb60dfb0925e81f2e039469);
+            
+        
+
+        marker_d6ef7b62feaa52a7ccfbe669e3af2b2a.bindPopup(popup_a58587663057b018eed0c0e3b4ce6be7)
+        ;
+
+        
+    
+    
+            var marker_b6a0c90b4a9752221341cae1f729b78e = L.marker(
+                [15.00388, 102.12079],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_e53ddcc2114e469190a8ad1a39691306 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34ad7dc46a79202006b42f4283a0b35c = $(`<div id="html_34ad7dc46a79202006b42f4283a0b35c" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_e53ddcc2114e469190a8ad1a39691306.setContent(html_34ad7dc46a79202006b42f4283a0b35c);
+            
+        
+
+        marker_b6a0c90b4a9752221341cae1f729b78e.bindPopup(popup_e53ddcc2114e469190a8ad1a39691306)
+        ;
+
+        
+    
+    
+            var marker_a0a04cab8b9269b465c9492a4b2d598a = L.marker(
+                [15.00069, 102.13487],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_0daa55ce2be2889a461b0a5828765a64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_807bacb49d1aa1972a00118192f55923 = $(`<div id="html_807bacb49d1aa1972a00118192f55923" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_0daa55ce2be2889a461b0a5828765a64.setContent(html_807bacb49d1aa1972a00118192f55923);
+            
+        
+
+        marker_a0a04cab8b9269b465c9492a4b2d598a.bindPopup(popup_0daa55ce2be2889a461b0a5828765a64)
+        ;
+
+        
+    
+    
+            var marker_84aae52b0a9bb40b72ef278a6a4346b2 = L.marker(
+                [14.997, 102.11388],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_3c1506f793be825185eefe11b284d769 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fe7c18b682aa7c595a906b3315c0710 = $(`<div id="html_1fe7c18b682aa7c595a906b3315c0710" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_3c1506f793be825185eefe11b284d769.setContent(html_1fe7c18b682aa7c595a906b3315c0710);
+            
+        
+
+        marker_84aae52b0a9bb40b72ef278a6a4346b2.bindPopup(popup_3c1506f793be825185eefe11b284d769)
+        ;
+
+        
+    
+    
+            var marker_5a4f9c043cab2b66cf569d644f7258a2 = L.marker(
+                [15.05742, 102.16535],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_7dcaad50c46479816749fc0b0acb395a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8edcb73a391a15c68d4b84d4f60b54f9 = $(`<div id="html_8edcb73a391a15c68d4b84d4f60b54f9" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_7dcaad50c46479816749fc0b0acb395a.setContent(html_8edcb73a391a15c68d4b84d4f60b54f9);
+            
+        
+
+        marker_5a4f9c043cab2b66cf569d644f7258a2.bindPopup(popup_7dcaad50c46479816749fc0b0acb395a)
+        ;
+
+        
+    
+    
+            var marker_a80c116cf59aaffe54f0da1b47e86ad7 = L.marker(
+                [14.97992, 102.08962],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_910967577238a3ce6fba14ec02e28001 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b01f87e6658c6cc3a69827669e4a6200 = $(`<div id="html_b01f87e6658c6cc3a69827669e4a6200" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลค่ายสุรนารี</div>`)[0];
+                popup_910967577238a3ce6fba14ec02e28001.setContent(html_b01f87e6658c6cc3a69827669e4a6200);
+            
+        
+
+        marker_a80c116cf59aaffe54f0da1b47e86ad7.bindPopup(popup_910967577238a3ce6fba14ec02e28001)
+        ;
+
+        
+    
+    
+            var marker_bc1ea084f9650552c27493fcc6eaf614 = L.marker(
+                [15.023755, 102.138652],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_4ab5dc9969eefd0fcd82ee55ec7d9120 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d6b83a68f82dcbd41c29c95748577b5 = $(`<div id="html_9d6b83a68f82dcbd41c29c95748577b5" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_4ab5dc9969eefd0fcd82ee55ec7d9120.setContent(html_9d6b83a68f82dcbd41c29c95748577b5);
+            
+        
+
+        marker_bc1ea084f9650552c27493fcc6eaf614.bindPopup(popup_4ab5dc9969eefd0fcd82ee55ec7d9120)
+        ;
+
+        
+    
+    
+            var marker_e80bf4c7a34d0d7af61c510ebbe74699 = L.marker(
+                [15.047498, 102.153307],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_c27f5b57e6114070281e046cc95465e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aabd908c6f45c0d6e74587770ebb9c0c = $(`<div id="html_aabd908c6f45c0d6e74587770ebb9c0c" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_c27f5b57e6114070281e046cc95465e2.setContent(html_aabd908c6f45c0d6e74587770ebb9c0c);
+            
+        
+
+        marker_e80bf4c7a34d0d7af61c510ebbe74699.bindPopup(popup_c27f5b57e6114070281e046cc95465e2)
+        ;
+
+        
+    
+    
+            var marker_96b2cffaeb4c13524295c45f74e564d0 = L.marker(
+                [14.98532, 102.10245],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_daf0081d0b7b2605fe4896ac3e4fe4f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2eefd66767f90a0efe543a21094b089d = $(`<div id="html_2eefd66767f90a0efe543a21094b089d" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_daf0081d0b7b2605fe4896ac3e4fe4f0.setContent(html_2eefd66767f90a0efe543a21094b089d);
+            
+        
+
+        marker_96b2cffaeb4c13524295c45f74e564d0.bindPopup(popup_daf0081d0b7b2605fe4896ac3e4fe4f0)
+        ;
+
+        
+    
+    
+            var marker_951230f5d660896b4e7105d5561b1735 = L.marker(
+                [15.05919, 102.16947],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_5eaa7f1e3a8bbd40f26f071bb0ee07bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd15d0769f32820711a6cfa360f7b926 = $(`<div id="html_dd15d0769f32820711a6cfa360f7b926" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_5eaa7f1e3a8bbd40f26f071bb0ee07bb.setContent(html_dd15d0769f32820711a6cfa360f7b926);
+            
+        
+
+        marker_951230f5d660896b4e7105d5561b1735.bindPopup(popup_5eaa7f1e3a8bbd40f26f071bb0ee07bb)
+        ;
+
+        
+    
+    
+            var marker_045790e84796cb6a5b6c5ac4c5b42533 = L.marker(
+                [15.011008, 102.127233],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_1b2d042e147151bd62bb025ed5f35f1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29f035edc873d0f1a49aaebfdc7a82aa = $(`<div id="html_29f035edc873d0f1a49aaebfdc7a82aa" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_1b2d042e147151bd62bb025ed5f35f1e.setContent(html_29f035edc873d0f1a49aaebfdc7a82aa);
+            
+        
+
+        marker_045790e84796cb6a5b6c5ac4c5b42533.bindPopup(popup_1b2d042e147151bd62bb025ed5f35f1e)
+        ;
+
+        
+    
+    
+            var marker_748558f99975a7ee2d48063ef7bb09aa = L.marker(
+                [15.06699, 102.19523],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_29f4f684dc01aa39b1f92949c4c6f607 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b89887ad006c77998ea683974f56c170 = $(`<div id="html_b89887ad006c77998ea683974f56c170" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_29f4f684dc01aa39b1f92949c4c6f607.setContent(html_b89887ad006c77998ea683974f56c170);
+            
+        
+
+        marker_748558f99975a7ee2d48063ef7bb09aa.bindPopup(popup_29f4f684dc01aa39b1f92949c4c6f607)
+        ;
+
+        
+    
+    
+            var marker_4967271dd793f51474a244e6a250de27 = L.marker(
+                [15.03231, 102.08736],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_ec3dd722245ca45944d2fd0679047600 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d35dd9bf8a785e7e5f17154611b39ac = $(`<div id="html_6d35dd9bf8a785e7e5f17154611b39ac" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_ec3dd722245ca45944d2fd0679047600.setContent(html_6d35dd9bf8a785e7e5f17154611b39ac);
+            
+        
+
+        marker_4967271dd793f51474a244e6a250de27.bindPopup(popup_ec3dd722245ca45944d2fd0679047600)
+        ;
+
+        
+    
+    
+            var marker_26c97057f3a74cc2a64a67a3723c47a7 = L.marker(
+                [15.0012, 102.09871],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_5a449f304496315496cefdb12850bf74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed2a68b43cf88afa562ac1dec1bee10d = $(`<div id="html_ed2a68b43cf88afa562ac1dec1bee10d" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_5a449f304496315496cefdb12850bf74.setContent(html_ed2a68b43cf88afa562ac1dec1bee10d);
+            
+        
+
+        marker_26c97057f3a74cc2a64a67a3723c47a7.bindPopup(popup_5a449f304496315496cefdb12850bf74)
+        ;
+
+        
+    
+    
+            var marker_942a542b512220a0d704c1c9ddce4fa2 = L.marker(
+                [15.0978, 102.10628],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_cfba83823a3507235e1ea8e90d27f58e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfe15f6e9d6cee62b76ba56b7e585e2f = $(`<div id="html_bfe15f6e9d6cee62b76ba56b7e585e2f" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_cfba83823a3507235e1ea8e90d27f58e.setContent(html_bfe15f6e9d6cee62b76ba56b7e585e2f);
+            
+        
+
+        marker_942a542b512220a0d704c1c9ddce4fa2.bindPopup(popup_cfba83823a3507235e1ea8e90d27f58e)
+        ;
+
+        
+    
+    
+            var marker_551c7b721faa6b19d4b2cd6b65134019 = L.marker(
+                [14.99374, 102.12512],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_42c45280cf5a133deaa53bf36e8b114d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfd176c4ccdbee6d04e473603fc9d201 = $(`<div id="html_bfd176c4ccdbee6d04e473603fc9d201" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_42c45280cf5a133deaa53bf36e8b114d.setContent(html_bfd176c4ccdbee6d04e473603fc9d201);
+            
+        
+
+        marker_551c7b721faa6b19d4b2cd6b65134019.bindPopup(popup_42c45280cf5a133deaa53bf36e8b114d)
+        ;
+
+        
+    
+    
+            var marker_ff0b0cc03c97e76ef95d6b19e9233165 = L.marker(
+                [15.02322, 102.0763],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_d84524720342af79c28589625961af2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_714c9041ebbbf39cfc4e44cbd04e385f = $(`<div id="html_714c9041ebbbf39cfc4e44cbd04e385f" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_d84524720342af79c28589625961af2c.setContent(html_714c9041ebbbf39cfc4e44cbd04e385f);
+            
+        
+
+        marker_ff0b0cc03c97e76ef95d6b19e9233165.bindPopup(popup_d84524720342af79c28589625961af2c)
+        ;
+
+        
+    
+    
+            var marker_9dcb9b84e34a4858ab110d5af4318723 = L.marker(
+                [15.08441, 102.1129],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_14dd7f2c66247dccf7dd9d5667bb918c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c81d5a931d71b6726e0db2045a76b8f8 = $(`<div id="html_c81d5a931d71b6726e0db2045a76b8f8" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_14dd7f2c66247dccf7dd9d5667bb918c.setContent(html_c81d5a931d71b6726e0db2045a76b8f8);
+            
+        
+
+        marker_9dcb9b84e34a4858ab110d5af4318723.bindPopup(popup_14dd7f2c66247dccf7dd9d5667bb918c)
+        ;
+
+        
+    
+    
+            var marker_fe1b6febb21468d38af8b922f66de7f3 = L.marker(
+                [15.069011, 102.203887],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_cbedf11e3917b188c1cd2d473440f4d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8fa36d6762a2506b17ec87bd678109e = $(`<div id="html_d8fa36d6762a2506b17ec87bd678109e" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_cbedf11e3917b188c1cd2d473440f4d4.setContent(html_d8fa36d6762a2506b17ec87bd678109e);
+            
+        
+
+        marker_fe1b6febb21468d38af8b922f66de7f3.bindPopup(popup_cbedf11e3917b188c1cd2d473440f4d4)
+        ;
+
+        
+    
+    
+            var marker_24bc1ec9c5cce7236849db49a62b67b2 = L.marker(
+                [15.0092, 102.138543],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_412739f39c7733832bd4c7f1c83eb1cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e729ed9d4e775263b7e93c73f766bdd7 = $(`<div id="html_e729ed9d4e775263b7e93c73f766bdd7" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_412739f39c7733832bd4c7f1c83eb1cc.setContent(html_e729ed9d4e775263b7e93c73f766bdd7);
+            
+        
+
+        marker_24bc1ec9c5cce7236849db49a62b67b2.bindPopup(popup_412739f39c7733832bd4c7f1c83eb1cc)
+        ;
+
+        
+    
+    
+            var marker_2d1a90b1ae0221ef71394a8ef089333a = L.marker(
+                [14.987113, 102.115359],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_218a7323bc46144fb5b4eaba6aed99fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71474b36eb0685e92ec874a986593e5e = $(`<div id="html_71474b36eb0685e92ec874a986593e5e" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_218a7323bc46144fb5b4eaba6aed99fe.setContent(html_71474b36eb0685e92ec874a986593e5e);
+            
+        
+
+        marker_2d1a90b1ae0221ef71394a8ef089333a.bindPopup(popup_218a7323bc46144fb5b4eaba6aed99fe)
+        ;
+
+        
+    
+    
+            var marker_96594ef31494f05c328ea1d4dda4a255 = L.marker(
+                [15.06809, 102.19967],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_7a3efabaf178195be7a4bdbb0dee1382 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db60760b5aa7e413fdde18f7b8e0ca70 = $(`<div id="html_db60760b5aa7e413fdde18f7b8e0ca70" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_7a3efabaf178195be7a4bdbb0dee1382.setContent(html_db60760b5aa7e413fdde18f7b8e0ca70);
+            
+        
+
+        marker_96594ef31494f05c328ea1d4dda4a255.bindPopup(popup_7a3efabaf178195be7a4bdbb0dee1382)
+        ;
+
+        
+    
+    
+            var marker_66c2272fdea08ec55a7a75a0161a2747 = L.marker(
+                [15.00974, 102.13742],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_eacf239112cda87207712916ae289c41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d14a0b5e23b8719b1075d07593b25fd6 = $(`<div id="html_d14a0b5e23b8719b1075d07593b25fd6" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_eacf239112cda87207712916ae289c41.setContent(html_d14a0b5e23b8719b1075d07593b25fd6);
+            
+        
+
+        marker_66c2272fdea08ec55a7a75a0161a2747.bindPopup(popup_eacf239112cda87207712916ae289c41)
+        ;
+
+        
+    
+    
+            var marker_48dfc5e69230a6ad15361c35567e4616 = L.marker(
+                [15.06781, 102.19806],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_e7acb73bf334dc6c5067715291368891 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca53852ed6b6b12743083b0c76c352e8 = $(`<div id="html_ca53852ed6b6b12743083b0c76c352e8" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_e7acb73bf334dc6c5067715291368891.setContent(html_ca53852ed6b6b12743083b0c76c352e8);
+            
+        
+
+        marker_48dfc5e69230a6ad15361c35567e4616.bindPopup(popup_e7acb73bf334dc6c5067715291368891)
+        ;
+
+        
+    
+    
+            var marker_b2ef5d8f5cc4b88c950298fd31672906 = L.marker(
+                [15.06152, 102.16412],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_8d5ac1147ac90cf5541c861f0b316a98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c7520c727c6b58c1310b4941b90c8be = $(`<div id="html_0c7520c727c6b58c1310b4941b90c8be" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_8d5ac1147ac90cf5541c861f0b316a98.setContent(html_0c7520c727c6b58c1310b4941b90c8be);
+            
+        
+
+        marker_b2ef5d8f5cc4b88c950298fd31672906.bindPopup(popup_8d5ac1147ac90cf5541c861f0b316a98)
+        ;
+
+        
+    
+    
+            var marker_5b7d834c2e080eb18bcd3e436ae7a44e = L.marker(
+                [14.99489, 102.10373],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_7b8db6475b60ad0b1304a9bf6fba120f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d59dc99c0449ce49bc204e6f2e07a583 = $(`<div id="html_d59dc99c0449ce49bc204e6f2e07a583" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_7b8db6475b60ad0b1304a9bf6fba120f.setContent(html_d59dc99c0449ce49bc204e6f2e07a583);
+            
+        
+
+        marker_5b7d834c2e080eb18bcd3e436ae7a44e.bindPopup(popup_7b8db6475b60ad0b1304a9bf6fba120f)
+        ;
+
+        
+    
+    
+            var marker_bfef19fe1bddfcf82998839ed287c33a = L.marker(
+                [15.05933, 102.1682],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_a7e84315c9afa73964c87dba2c433ea3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b7829ee660309271faa30ae6d1a1f31 = $(`<div id="html_1b7829ee660309271faa30ae6d1a1f31" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_a7e84315c9afa73964c87dba2c433ea3.setContent(html_1b7829ee660309271faa30ae6d1a1f31);
+            
+        
+
+        marker_bfef19fe1bddfcf82998839ed287c33a.bindPopup(popup_a7e84315c9afa73964c87dba2c433ea3)
+        ;
+
+        
+    
+    
+            var marker_137ab4b49c8994480ab69259c93ef60e = L.marker(
+                [15.00098, 102.10272],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_df9cc38071b3a3a899bd59a8730e5f10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccc4d7e55b9b9bfde7633ebfab7e1903 = $(`<div id="html_ccc4d7e55b9b9bfde7633ebfab7e1903" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_df9cc38071b3a3a899bd59a8730e5f10.setContent(html_ccc4d7e55b9b9bfde7633ebfab7e1903);
+            
+        
+
+        marker_137ab4b49c8994480ab69259c93ef60e.bindPopup(popup_df9cc38071b3a3a899bd59a8730e5f10)
+        ;
+
+        
+    
+    
+            var marker_631a92377a5220d2a6bbc3c6083bae99 = L.marker(
+                [15.01663, 102.06674],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_e29366cb45ac92541f38d4badcd83fa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a954bdb3422c9d57c54ad5df1d454f6 = $(`<div id="html_0a954bdb3422c9d57c54ad5df1d454f6" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลกรุงเทพราชสีมา</div>`)[0];
+                popup_e29366cb45ac92541f38d4badcd83fa0.setContent(html_0a954bdb3422c9d57c54ad5df1d454f6);
+            
+        
+
+        marker_631a92377a5220d2a6bbc3c6083bae99.bindPopup(popup_e29366cb45ac92541f38d4badcd83fa0)
+        ;
+
+        
+    
+    
+            var marker_0bfd75f243d20f58f1e10b610327c2f6 = L.marker(
+                [15.12669, 102.10346],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_0d58c098e3d521eea7543eec67ed1acf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4390f5dcd9489cba3eaa03b95f94bf41 = $(`<div id="html_4390f5dcd9489cba3eaa03b95f94bf41" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_0d58c098e3d521eea7543eec67ed1acf.setContent(html_4390f5dcd9489cba3eaa03b95f94bf41);
+            
+        
+
+        marker_0bfd75f243d20f58f1e10b610327c2f6.bindPopup(popup_0d58c098e3d521eea7543eec67ed1acf)
+        ;
+
+        
+    
+    
+            var marker_e1bccabcb18fa73b83dcdc17900872ab = L.marker(
+                [15.03263, 102.0883],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_49389d6af4b12e0550760ef2b708fafa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26baaa8b48c6237a8e012cfc24b4ad44 = $(`<div id="html_26baaa8b48c6237a8e012cfc24b4ad44" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_49389d6af4b12e0550760ef2b708fafa.setContent(html_26baaa8b48c6237a8e012cfc24b4ad44);
+            
+        
+
+        marker_e1bccabcb18fa73b83dcdc17900872ab.bindPopup(popup_49389d6af4b12e0550760ef2b708fafa)
+        ;
+
+        
+    
+    
+            var marker_3c9d0a63a0df86de9a05c07dd986e775 = L.marker(
+                [15.015661, 102.129224],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_74a8bc9b1e07fa69158fc099f2763426 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9973a779ce03cb5c82d726eb8299339 = $(`<div id="html_d9973a779ce03cb5c82d726eb8299339" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_74a8bc9b1e07fa69158fc099f2763426.setContent(html_d9973a779ce03cb5c82d726eb8299339);
+            
+        
+
+        marker_3c9d0a63a0df86de9a05c07dd986e775.bindPopup(popup_74a8bc9b1e07fa69158fc099f2763426)
+        ;
+
+        
+    
+    
+            var marker_40db7a59ca5d8592c01c307fa44ae6da = L.marker(
+                [15.070092, 102.205906],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_9f63a666ee9c1439bedff854eac8f2df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7247676341aa94daff034ef573f79513 = $(`<div id="html_7247676341aa94daff034ef573f79513" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_9f63a666ee9c1439bedff854eac8f2df.setContent(html_7247676341aa94daff034ef573f79513);
+            
+        
+
+        marker_40db7a59ca5d8592c01c307fa44ae6da.bindPopup(popup_9f63a666ee9c1439bedff854eac8f2df)
+        ;
+
+        
+    
+    
+            var marker_f4e960ab3edf9c7512fb227280b855dd = L.marker(
+                [15.032325, 102.181295],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_69c19fbc5966d2a704bc677b9e984ea0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3910e91996423ead64cf2873513a5fd = $(`<div id="html_e3910e91996423ead64cf2873513a5fd" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_69c19fbc5966d2a704bc677b9e984ea0.setContent(html_e3910e91996423ead64cf2873513a5fd);
+            
+        
+
+        marker_f4e960ab3edf9c7512fb227280b855dd.bindPopup(popup_69c19fbc5966d2a704bc677b9e984ea0)
+        ;
+
+        
+    
+    
+            var marker_dc75fa478b8631780d1427d88aadd3c1 = L.marker(
+                [15.121815, 102.102857],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_eaad729710293fe98bf52384d50caa03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa821a14b373fced8d80592ea642d943 = $(`<div id="html_fa821a14b373fced8d80592ea642d943" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาราชนครราชสีมา</div>`)[0];
+                popup_eaad729710293fe98bf52384d50caa03.setContent(html_fa821a14b373fced8d80592ea642d943);
+            
+        
+
+        marker_dc75fa478b8631780d1427d88aadd3c1.bindPopup(popup_eaad729710293fe98bf52384d50caa03)
+        ;
+
+        
+    
+    
+            var marker_af5a11b00c02ebe64912e95662c3f7a0 = L.marker(
+                [14.84589, 102.08828],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_5c966e366b3fc397fd66512b6016eb74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddb4f0d7a5c1058267c30412f8141396 = $(`<div id="html_ddb4f0d7a5c1058267c30412f8141396" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_5c966e366b3fc397fd66512b6016eb74.setContent(html_ddb4f0d7a5c1058267c30412f8141396);
+            
+        
+
+        marker_af5a11b00c02ebe64912e95662c3f7a0.bindPopup(popup_5c966e366b3fc397fd66512b6016eb74)
+        ;
+
+        
+    
+    
+            var marker_91456c7a76a2fdec64039188500b176f = L.marker(
+                [14.88951, 102.03747],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_9ee36b2af67224eb5bf98c4c269b3ca5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_773ee3038fad3df3d770a7fd89262887 = $(`<div id="html_773ee3038fad3df3d770a7fd89262887" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_9ee36b2af67224eb5bf98c4c269b3ca5.setContent(html_773ee3038fad3df3d770a7fd89262887);
+            
+        
+
+        marker_91456c7a76a2fdec64039188500b176f.bindPopup(popup_9ee36b2af67224eb5bf98c4c269b3ca5)
+        ;
+
+        
+    
+    
+            var marker_fe584736ab3217f62ed2be1623d9b6c4 = L.marker(
+                [14.91207, 102.06816],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_784ecbd3ceb0579370e82bc239388e89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_decd55c9b6936013ff001f66c33efb0f = $(`<div id="html_decd55c9b6936013ff001f66c33efb0f" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_784ecbd3ceb0579370e82bc239388e89.setContent(html_decd55c9b6936013ff001f66c33efb0f);
+            
+        
+
+        marker_fe584736ab3217f62ed2be1623d9b6c4.bindPopup(popup_784ecbd3ceb0579370e82bc239388e89)
+        ;
+
+        
+    
+    
+            var marker_f25fdf73bea8c6c075eb35b0f9d573a6 = L.marker(
+                [14.83641, 102.06079],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_159fccdf6abc9fb35d9ba7a03e2b48ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b77de2e01b4917767f1d7a18ec46dcf7 = $(`<div id="html_b77de2e01b4917767f1d7a18ec46dcf7" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_159fccdf6abc9fb35d9ba7a03e2b48ca.setContent(html_b77de2e01b4917767f1d7a18ec46dcf7);
+            
+        
+
+        marker_f25fdf73bea8c6c075eb35b0f9d573a6.bindPopup(popup_159fccdf6abc9fb35d9ba7a03e2b48ca)
+        ;
+
+        
+    
+    
+            var marker_0df2996afb1a1a51e602695c04f136a5 = L.marker(
+                [14.85875, 102.06356],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_b7707942a3df51a16d497a1b09e9c283 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18bf148d2e01dc08e655d00b8fd1588c = $(`<div id="html_18bf148d2e01dc08e655d00b8fd1588c" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_b7707942a3df51a16d497a1b09e9c283.setContent(html_18bf148d2e01dc08e655d00b8fd1588c);
+            
+        
+
+        marker_0df2996afb1a1a51e602695c04f136a5.bindPopup(popup_b7707942a3df51a16d497a1b09e9c283)
+        ;
+
+        
+    
+    
+            var marker_b60a25b1078ec87ec9a59c57de53913d = L.marker(
+                [14.840238, 102.063598],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_1bf9ccf8324dcaba2eb945f788979e00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2744fed9b8a22e342fc4e33ba9e3bebd = $(`<div id="html_2744fed9b8a22e342fc4e33ba9e3bebd" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_1bf9ccf8324dcaba2eb945f788979e00.setContent(html_2744fed9b8a22e342fc4e33ba9e3bebd);
+            
+        
+
+        marker_b60a25b1078ec87ec9a59c57de53913d.bindPopup(popup_1bf9ccf8324dcaba2eb945f788979e00)
+        ;
+
+        
+    
+    
+            var marker_d42db4977517ef6e413184e4bdc7133f = L.marker(
+                [14.87699, 102.042415],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_3fa7311e2392451516de79658640b8c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b55ffbae57ad4d3d227c5258ad20de73 = $(`<div id="html_b55ffbae57ad4d3d227c5258ad20de73" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_3fa7311e2392451516de79658640b8c1.setContent(html_b55ffbae57ad4d3d227c5258ad20de73);
+            
+        
+
+        marker_d42db4977517ef6e413184e4bdc7133f.bindPopup(popup_3fa7311e2392451516de79658640b8c1)
+        ;
+
+        
+    
+    
+            var marker_d7932876f479e8f283abb4fa2caeae24 = L.marker(
+                [14.84071, 102.06094],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_5b9e42c8637420dc7236f645e81da05e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_280914880c8a46a58948f0896aef5163 = $(`<div id="html_280914880c8a46a58948f0896aef5163" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_5b9e42c8637420dc7236f645e81da05e.setContent(html_280914880c8a46a58948f0896aef5163);
+            
+        
+
+        marker_d7932876f479e8f283abb4fa2caeae24.bindPopup(popup_5b9e42c8637420dc7236f645e81da05e)
+        ;
+
+        
+    
+    
+            var marker_4ae197ac6c785a65e4e426714e3c1f23 = L.marker(
+                [14.84538, 102.09012],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_8416a6e7a86097dbd4a738efa212afef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dab2bf67dbf234a96c3799fb7ffb376 = $(`<div id="html_1dab2bf67dbf234a96c3799fb7ffb376" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_8416a6e7a86097dbd4a738efa212afef.setContent(html_1dab2bf67dbf234a96c3799fb7ffb376);
+            
+        
+
+        marker_4ae197ac6c785a65e4e426714e3c1f23.bindPopup(popup_8416a6e7a86097dbd4a738efa212afef)
+        ;
+
+        
+    
+    
+            var marker_2f1b27edd5c77e36b59842ebeac06974 = L.marker(
+                [14.87154, 101.9608],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_e2f5cf6d9327500fd2e3e58cd927776f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a91003069cc571d4e9327da8abbe46e4 = $(`<div id="html_a91003069cc571d4e9327da8abbe46e4" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลเทพรัตน์</div>`)[0];
+                popup_e2f5cf6d9327500fd2e3e58cd927776f.setContent(html_a91003069cc571d4e9327da8abbe46e4);
+            
+        
+
+        marker_2f1b27edd5c77e36b59842ebeac06974.bindPopup(popup_e2f5cf6d9327500fd2e3e58cd927776f)
+        ;
+
+        
+    
+    
+            var marker_5ec9287d276d3a92a3ef90bf28627ae1 = L.marker(
+                [14.8508, 102.07297],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_bfc010192aa101797ec1e2dffb98a9c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_435c9008931d8ad7475b6d2ecdb35b17 = $(`<div id="html_435c9008931d8ad7475b6d2ecdb35b17" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_bfc010192aa101797ec1e2dffb98a9c3.setContent(html_435c9008931d8ad7475b6d2ecdb35b17);
+            
+        
+
+        marker_5ec9287d276d3a92a3ef90bf28627ae1.bindPopup(popup_bfc010192aa101797ec1e2dffb98a9c3)
+        ;
+
+        
+    
+    
+            var marker_88a9744ce7d5ef4ad0d6e01493da51a0 = L.marker(
+                [14.83582, 102.06063],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_d83e1978dcef2b95a9731e23d34d5abe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdd159e2ec541b5179b04752955bd0e5 = $(`<div id="html_bdd159e2ec541b5179b04752955bd0e5" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_d83e1978dcef2b95a9731e23d34d5abe.setContent(html_bdd159e2ec541b5179b04752955bd0e5);
+            
+        
+
+        marker_88a9744ce7d5ef4ad0d6e01493da51a0.bindPopup(popup_d83e1978dcef2b95a9731e23d34d5abe)
+        ;
+
+        
+    
+    
+            var marker_cbe230332b2f9d7affe7574fd3d0c46d = L.marker(
+                [14.83582, 102.06063],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_e7f2f3a3522f3d9570c7755f2082fcd6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f591fe020220df0c756e4979f4865db1 = $(`<div id="html_f591fe020220df0c756e4979f4865db1" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_e7f2f3a3522f3d9570c7755f2082fcd6.setContent(html_f591fe020220df0c756e4979f4865db1);
+            
+        
+
+        marker_cbe230332b2f9d7affe7574fd3d0c46d.bindPopup(popup_e7f2f3a3522f3d9570c7755f2082fcd6)
+        ;
+
+        
+    
+    
+            var marker_239bcc244305b72752950ee69b87ba0f = L.marker(
+                [14.83582, 102.06063],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_4e4abee85a7fdade89497d2d687a9cba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_882008ebb900c204ae4b233a768b3ff4 = $(`<div id="html_882008ebb900c204ae4b233a768b3ff4" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_4e4abee85a7fdade89497d2d687a9cba.setContent(html_882008ebb900c204ae4b233a768b3ff4);
+            
+        
+
+        marker_239bcc244305b72752950ee69b87ba0f.bindPopup(popup_4e4abee85a7fdade89497d2d687a9cba)
+        ;
+
+        
+    
+    
+            var marker_35c2e93e8bec2b0b45c435f5dee3b949 = L.marker(
+                [14.83582, 102.06063],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_1961341f2ebf62291638051d6bd10a57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_016ea609f9ed5bf03030e9256edad819 = $(`<div id="html_016ea609f9ed5bf03030e9256edad819" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_1961341f2ebf62291638051d6bd10a57.setContent(html_016ea609f9ed5bf03030e9256edad819);
+            
+        
+
+        marker_35c2e93e8bec2b0b45c435f5dee3b949.bindPopup(popup_1961341f2ebf62291638051d6bd10a57)
+        ;
+
+        
+    
+    
+            var marker_0b62cff9f54fc744e2cb2e3edfbff6bd = L.marker(
+                [14.83582, 102.06063],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_700d50b57fff9df03556264aee07836e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b7282da700682443c70b446e3bd32b0 = $(`<div id="html_0b7282da700682443c70b446e3bd32b0" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_700d50b57fff9df03556264aee07836e.setContent(html_0b7282da700682443c70b446e3bd32b0);
+            
+        
+
+        marker_0b62cff9f54fc744e2cb2e3edfbff6bd.bindPopup(popup_700d50b57fff9df03556264aee07836e)
+        ;
+
+        
+    
+    
+            var marker_25380162df805201fb183ffd1d885fcd = L.marker(
+                [14.83582, 102.06063],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_48c91c7252acc537957a6d5afe0f5aae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad08ca9c62b61864368bd5f246e6ffc6 = $(`<div id="html_ad08ca9c62b61864368bd5f246e6ffc6" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_48c91c7252acc537957a6d5afe0f5aae.setContent(html_ad08ca9c62b61864368bd5f246e6ffc6);
+            
+        
+
+        marker_25380162df805201fb183ffd1d885fcd.bindPopup(popup_48c91c7252acc537957a6d5afe0f5aae)
+        ;
+
+        
+    
+    
+            var marker_f9537508f23d6082000277343442d195 = L.marker(
+                [14.83582, 102.06063],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_fde948447450181d8f418c5ef7698e3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4665d6998cbdd86f9b35f3c017a3aca3 = $(`<div id="html_4665d6998cbdd86f9b35f3c017a3aca3" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_fde948447450181d8f418c5ef7698e3e.setContent(html_4665d6998cbdd86f9b35f3c017a3aca3);
+            
+        
+
+        marker_f9537508f23d6082000277343442d195.bindPopup(popup_fde948447450181d8f418c5ef7698e3e)
+        ;
+
+        
+    
+    
+            var marker_f506ec72ca3245225e2af6f0989e19fb = L.marker(
+                [14.84895, 102.076378],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_164f418dd9278516eadf8caf76a9b683 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e88247bffbc5b80a42a27587104d7690 = $(`<div id="html_e88247bffbc5b80a42a27587104d7690" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_164f418dd9278516eadf8caf76a9b683.setContent(html_e88247bffbc5b80a42a27587104d7690);
+            
+        
+
+        marker_f506ec72ca3245225e2af6f0989e19fb.bindPopup(popup_164f418dd9278516eadf8caf76a9b683)
+        ;
+
+        
+    
+    
+            var marker_0014beef6d45e9f91e9378d54bab3d98 = L.marker(
+                [14.866996, 102.144076],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_2ae3b7c7970e3484b2b28dd4fd72c03e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_453e642373a9521bc5d445f915556b7f = $(`<div id="html_453e642373a9521bc5d445f915556b7f" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_2ae3b7c7970e3484b2b28dd4fd72c03e.setContent(html_453e642373a9521bc5d445f915556b7f);
+            
+        
+
+        marker_0014beef6d45e9f91e9378d54bab3d98.bindPopup(popup_2ae3b7c7970e3484b2b28dd4fd72c03e)
+        ;
+
+        
+    
+    
+            var marker_ea9d40459f14519c449a170ac302383a = L.marker(
+                [14.84595, 102.08861],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_20c4c43ffd01081e61e6b1e1f609fa42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4ea03c7dfc6e0d1d9a065c009fcfdda = $(`<div id="html_a4ea03c7dfc6e0d1d9a065c009fcfdda" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_20c4c43ffd01081e61e6b1e1f609fa42.setContent(html_a4ea03c7dfc6e0d1d9a065c009fcfdda);
+            
+        
+
+        marker_ea9d40459f14519c449a170ac302383a.bindPopup(popup_20c4c43ffd01081e61e6b1e1f609fa42)
+        ;
+
+        
+    
+    
+            var marker_39c4e835738b3239e5e8dfec4a365a52 = L.marker(
+                [14.88189, 102.06715],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_4601d7f3ac5dd03cc2651ae8e9b01daf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_922fe5b0a0506500beaf71d440ed3e2b = $(`<div id="html_922fe5b0a0506500beaf71d440ed3e2b" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_4601d7f3ac5dd03cc2651ae8e9b01daf.setContent(html_922fe5b0a0506500beaf71d440ed3e2b);
+            
+        
+
+        marker_39c4e835738b3239e5e8dfec4a365a52.bindPopup(popup_4601d7f3ac5dd03cc2651ae8e9b01daf)
+        ;
+
+        
+    
+    
+            var marker_6f4c904a5109b602e65612e4d4a3972f = L.marker(
+                [14.85419, 102.06761],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_d267bfd8c96410a5756c419c9659f984 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cdb26e7ad0028f47dc903542f4323e7 = $(`<div id="html_8cdb26e7ad0028f47dc903542f4323e7" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_d267bfd8c96410a5756c419c9659f984.setContent(html_8cdb26e7ad0028f47dc903542f4323e7);
+            
+        
+
+        marker_6f4c904a5109b602e65612e4d4a3972f.bindPopup(popup_d267bfd8c96410a5756c419c9659f984)
+        ;
+
+        
+    
+    
+            var marker_27f66f08183dfccc21abfceee5f3a472 = L.marker(
+                [14.835526, 102.069566],
+                {}
+            ).addTo(marker_cluster_dff7563226b1abd2091a1bab80190fbd);
+        
+    
+        var popup_8d62bc7c90ce823a18942d6d1a7cf49f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c3c3879c68cb569e87f961678669805 = $(`<div id="html_2c3c3879c68cb569e87f961678669805" style="width: 100.0%; height: 100.0%;">Nearest Hospital: โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี</div>`)[0];
+                popup_8d62bc7c90ce823a18942d6d1a7cf49f.setContent(html_2c3c3879c68cb569e87f961678669805);
+            
+        
+
+        marker_27f66f08183dfccc21abfceee5f3a472.bindPopup(popup_8d62bc7c90ce823a18942d6d1a7cf49f)
+        ;
+
+        
+    
+    
+            var layer_control_301292fce1476062aeec98cccf301029 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_c13e4d0fc98f64a354446db2f89f02bc,
+                },
+                overlays :  {
+                    "Hospitals" : marker_cluster_eb3f39b04826c682c17e341b822c6eaa,
+                    "Accidents" : marker_cluster_dff7563226b1abd2091a1bab80190fbd,
+                },
+            };
+            L.control.layers(
+                layer_control_301292fce1476062aeec98cccf301029.base_layers,
+                layer_control_301292fce1476062aeec98cccf301029.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_e04feb28f6b7ca0e9cb01b4268b14b57);
+        
+</script>
+</html>
